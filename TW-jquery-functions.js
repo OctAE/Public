@@ -99,7 +99,10 @@ $(document).ready(function(){
         //$('.alphabutton > a > span').html('Change site address');
 	 }
 	 
-	 
+	 if (pathname.indexOf('products') > -1){
+        $("td[valign=right]").hide();
+        $("td[valign=middle]").hide();
+	 }
 
 //********************STEPS**********************//
 
