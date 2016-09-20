@@ -100,9 +100,16 @@ $(document).ready(function(){
 	 }
 	 
 	 if (pathname.indexOf('products') > -1){
+	    $("div > table").hide();
         $("td[valign=right]").hide();
         $("td[valign=middle]").hide();
+        $('#productGridTable').show();
+        $('#categoryGridTable').show();
 	 }
+	 
+	 
+	 
+	 
 
 //********************STEPS**********************//
 
@@ -217,7 +224,7 @@ $(document).ready(function(){
 	$('ul.stepsList').removeClass('stepsList');
 
 	 //Change "Please check Order reference" to "Please add order reference"
-    $('strong#STOP_PONUMBER_TEXT').html('Please enter your requested install date');
+    $('strong#STOP_PONUMBER_TEXT').html('Please enter your prefered install date');
     
     //Change "ponumber" type to date
     $('#ponumber').prop('type', 'date');
@@ -267,7 +274,7 @@ $(document).ready(function(){
 
 
 
-//Change “Edit my details” button text to “Change “delivery address”
+//Change â€œEdit my detailsâ€ button text to â€œChange â€œdelivery addressâ€
     $('#deliveryAddress a span').html('Change delivery address');
 
 
@@ -286,7 +293,7 @@ $(document).ready(function(){
     $('#poNumber').after('<tr style="height: 25px;"></tr>');
 
     //Next to Delivery Address add warning that this must be reviewed closely
-    $('#deliveryAddress td.notBgmed').append('<div id="DeliveryWarningMsg"><p>Please check delivery address and edit if necessary.<br>Once you click ‘Confirm Order’ below, the details shown here cannot be edited.</p></div>');
+    $('#deliveryAddress td.notBgmed').append('<div id="DeliveryWarningMsg"><p>Please check delivery address and edit if necessary.<br>Once you click â€˜Confirm Orderâ€™ below, the details shown here cannot be edited.</p></div>');
 
     //Add class to main checkout table
     $('#CustomPaymentInfo').parent().parent().parent().parent().addClass('checkoutTable');
@@ -361,8 +368,6 @@ $(document).ready(function(){
 
     //Add navigation text below order complete message
     $('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/taylorwimpey/products">Open Catalogue</a> to place another order, or <a href="/taylorwimpey/logout">Log Out</p>');
-
-  
 
     //Order approval page
     if (pathname.indexOf('order-approval') > -1) {
@@ -556,7 +561,6 @@ function addProduct_Response() {
   }
 window.location.reload();
 } //This overrite native RedTie function. This makes page reload after alert "Product added to order successfully" alert
-
 
 
 
