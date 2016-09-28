@@ -747,7 +747,7 @@ html, body {
     left:0;
     right:0;
     height:70px;
-    background:#331244;
+    background: #edecec url("../img/design/bg-footer.png");
 }
 
 #innerFooter {
