@@ -732,7 +732,7 @@ html, body {
   height: 70px; 
 }
 .footContent {
-  background: #331244;
+  background: #edecec url("../img/design/bg-footer.png");
 }
 
 
