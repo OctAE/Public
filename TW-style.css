@@ -743,11 +743,11 @@ html, body {
 }
 
 #footContent {
-	position:absolute;
+	/*position:absolute;
     left:0;
     right:0;
-    height:70px;
-    background: #edecec url("../img/design/bg-footer.png");
+    height:70px;*/
+    background: #edecec url("https://rawgit.com/OctAE/Public/master/bg-footer.png");
 }
 
 #innerFooter {
