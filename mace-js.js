@@ -75,7 +75,7 @@ $(document).ready(function(){
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img height='50' src='https://rawgit.com/OctAE/Public/master/Powered%20by.png' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img height='50' src='https://rawgit.com/OctAE/Public/master/Powered-by-white-text-logo.png' alt='Octink'></a>");
 
 
 	    //Footer copyright
