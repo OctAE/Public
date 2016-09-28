@@ -766,14 +766,14 @@ html, body {
 
 .botlinks p span {
   color: #33A3B2;
-  	color: white;
+  	color: #000000;
 }
 
 
 .botlinks  a {
   margin-right: 10px;
   margin-left: 10px;
-  	color: white;
+  	color: #000000;
 }
 
 #footer-image {
