@@ -743,11 +743,14 @@ html, body {
 }
 
 #footContent {
-	/*position:absolute;
+    background: #edecec url("https://rawgit.com/OctAE/Public/master/bg-footer.png");
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+		/*position:absolute;
     left:0;
     right:0;
     height:70px;*/
-    background: #edecec url("https://rawgit.com/OctAE/Public/master/bg-footer.png");
+	
 }
 
 #innerFooter {
