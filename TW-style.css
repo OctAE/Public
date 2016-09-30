@@ -37,11 +37,12 @@ ul#navivert li {
 
 
 ul#navivert li a {
-  background-color:#F5F5F5 !important;
+  background-color:#F5F5F5;
   border-right: none;
   border-bottom: 2px solid #F5F5F5;
   box-sizing: content-box;
   color: #5b8ab5;
+  font-weight: 500;
 }
 
 ul#navivert li a:hover {
