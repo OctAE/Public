@@ -23,6 +23,8 @@
 ul#navivert {
   text-align: right;
   padding-bottom:0px;
+  color: #331244;
+  font-weight: bold;
 }
 
 
@@ -33,7 +35,7 @@ ul#navivert li a {
 }
 
 ul#navivert li a:hover {
-  background-color: #331244;
+  /*background-color: #331244;*/
   border-bottom: 2px solid #c80b2d;
 }
 
