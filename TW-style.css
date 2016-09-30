@@ -191,7 +191,7 @@ ul#navivert li #ulDropDown li a {
 padding:5px 30px;
 }
 
-.stepsPlain:after {
+/*.stepsPlain:after {
   content: " "; 
   display: block; 
   width: 20px; 
@@ -201,7 +201,7 @@ padding:5px 30px;
   top:0px;
   right:-15px;
   z-index: 1; 
-}
+}*/
 
 
 .stepsHighlight {
