@@ -52,6 +52,14 @@ ul#navivert li a:hover {
   font-weight: 500;
 }
 
+#navButtHistory {
+  background-color: #F5F5F5;
+}
+
+#navButtLogout {
+  background-color: #F5F5F5;
+}
+
 #bannerBehind {
 	position:absolute;
     left:0;
