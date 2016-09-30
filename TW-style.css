@@ -28,13 +28,13 @@ ul#navivert {
 
 ul#navivert li a {
   border-right: none;
-  border-bottom: 5px solid #331244;
+  border-bottom: 2px solid #331244;
   box-sizing: content-box;
 }
 
 ul#navivert li a:hover {
   background-color: #331244;
-  border-bottom: 5px solid #c80b2d;
+  border-bottom: 2px solid #c80b2d;
 }
 
 #bannerBehind {
