@@ -26,6 +26,11 @@ ul#navivert {
   padding-bottom:0px;
 }
 
+ul#navivert li {
+  background-color:#F5F5F5;
+  color: #5b8ab5;
+}
+
 
 ul#navivert li a {
   border-right: none;
