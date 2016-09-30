@@ -208,7 +208,7 @@ padding:5px 30px;
   background-color: #331244;
 }
 
-.stepsHighlight:after {
+/*.stepsHighlight:after {
   content: " "; 
   display: block; 
   width: 20px; 
@@ -218,7 +218,7 @@ padding:5px 30px;
   top:0px;
   right:-15px;
   z-index: 1; 
-}
+}*/
 
 .stepsHighlight p {
  color: white ;
