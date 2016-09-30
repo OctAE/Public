@@ -27,8 +27,8 @@ ul#navivert {
 }
 
 ul#navivert li {
-  background-color:#F5F5F5;
-  color: #5b8ab5;
+  background-color:#F5F5F5 !important;
+  color: #5b8ab5 !important;
 }
 
 
