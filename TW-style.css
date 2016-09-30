@@ -29,12 +29,12 @@ ul#navivert {
 
 ul#navivert li a {
   border-right: none;
-  border-bottom: 2px solid #331244;
+  border-bottom: 2px solid #F5F5F5;
   box-sizing: content-box;
 }
 
 ul#navivert li a:hover {
-  background-color: #331244;
+  background-color: #F5F5F5;
   border-bottom: 2px solid #c80b2d;
 }
 
