@@ -53,11 +53,11 @@ ul#navivert li a:hover {
 }
 
 #navButtHistory {
-  background-color: #F5F5F5;
+  background-color: #F5F5F5 !important;
 }
 
 #navButtLogout {
-  background-color: #F5F5F5;
+  background-color: #F5F5F5 !important;
 }
 
 #bannerBehind {
