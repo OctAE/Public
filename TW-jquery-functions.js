@@ -85,7 +85,7 @@ $(document).ready(function(){
 	 }
 	 
 	 $('#shippingLabel').html('Site Address:');
-	 //$('label[for=termscheck], input#termscheck').hide();
+	 $('label[for=termscheck], input#termscheck').html('I agree to have used or new furniture');
 	 //$('input#termscheck').attr('checked', true);
 	 
 	 if (pathname.indexOf('public') > -1){
