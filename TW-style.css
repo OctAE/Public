@@ -48,6 +48,8 @@ ul#navivert li a {
 ul#navivert li a:hover {
   background-color: #F5F5F5;
   border-bottom: 2px solid #c80b2d;
+  color: #5b8ab5;
+  font-weight: 500;
 }
 
 #bannerBehind {
