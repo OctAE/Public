@@ -85,8 +85,8 @@ $(document).ready(function(){
 	 }
 	 
 	 $('#shippingLabel').html('Site Address:');
-	 $('label[for=termscheck], input#termscheck').hide();
-	 $('input#termscheck').attr('checked', true);
+	 //$('label[for=termscheck], input#termscheck').hide();
+	 //$('input#termscheck').attr('checked', true);
 	 
 	 if (pathname.indexOf('public') > -1){
         $(".stepsHighlight").hide();
