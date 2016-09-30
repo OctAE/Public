@@ -734,6 +734,7 @@ html, body {
   min-height: 100%;
   /* equal to footer height */
   margin-bottom: -70px; 
+  background-color: #FFFFFF;
 }
 .centrealign_split:after {
   content: "";
