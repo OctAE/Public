@@ -31,7 +31,7 @@ ul#navivert {
 }
 
 ul#navivert li {
-  background-color:#F5F5F5 !important;
+  background-color:#DCDCDC !important;
   color: #5b8ab5 !important;
 }
 
@@ -179,7 +179,7 @@ ul#navivert li #ulDropDown li a {
 }
 
 .stepsPlain, .stepsHighlight {
-  background-color: #F5F5F5;
+  background-color: #DCDCDC;
   position:relative;
   width: 200px;
   margin: 0;
