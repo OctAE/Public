@@ -110,6 +110,9 @@ $(document).ready(function(){
 	 
 	//Hide Balance
 	$('#balancecell').detach(); 
+	$('#orderSubTotal').detach();
+	$('#orderDelivery').detach();
+	$('#orderTotal').detach();
 	 
 
 //********************STEPS**********************//
