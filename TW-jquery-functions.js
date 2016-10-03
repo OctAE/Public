@@ -109,7 +109,7 @@ $(document).ready(function(){
 	 
 	 
 	//Hide Balance
-	$('#balancecell').hide(); 
+	$('#balancecell').detach(); 
 	 
 
 //********************STEPS**********************//
