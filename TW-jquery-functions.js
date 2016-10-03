@@ -110,9 +110,15 @@ $(document).ready(function(){
 	 
 	//Hide Balance
 	$('#balancecell').detach(); 
+	//hide totals in order summary
 	$('#orderSubTotal').detach();
 	$('#orderDelivery').detach();
 	$('#orderTotal').detach();
+
+	//Change select your site specific graphics to the below text...
+	if(pathname.indexOf('kit-edit') > -1) {
+		$('#nextStep').text('Customise your site specific graphics');
+	}
 	 
 
 //********************STEPS**********************//
