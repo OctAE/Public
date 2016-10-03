@@ -108,7 +108,8 @@ $(document).ready(function(){
 	 }
 	 
 	 
-	 
+	//Hide Balance
+	$('#balancecell').hide(); 
 	 
 
 //********************STEPS**********************//
