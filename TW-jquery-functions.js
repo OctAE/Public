@@ -187,7 +187,7 @@ $(document).ready(function(){
 	});*/
 
 	if(pathname.indexOf('additional-items') > -1) {
-		$('#additional-items').detach();
+		$('#progressSteps').detach();
 	}
 
 
