@@ -120,6 +120,19 @@ $(document).ready(function(){
 		$('#nextStep').text('Customise your site specific graphics');
 	}
 	 
+	//Remove prefix for product order
+	//Change your are at text to the below
+	$('.centrealign span').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('01. Standard Double/Triple Garage', 'Standard Double/Triple Garage')); 
+    	$(this).text(text.replace('02. Standard House', 'Standard House')); 
+    	$(this).text(text.replace('03. Standard Cabin (Standard fascia)', 'Standard Cabin (Standard fascia)')); 
+    	$(this).text(text.replace('04. Standard Cabin (Retractable fascia)', 'Standard Cabin (Retractable fascia)')); 
+    	$(this).text(text.replace('', '')); 
+    	$(this).text(text.replace('', '')); 
+
+	});
+
 
 //********************STEPS**********************//
 
