@@ -115,9 +115,13 @@ $(document).ready(function(){
 	$('#orderDelivery').detach();
 	$('#orderTotal').detach();
 
-	//Change select your site specific graphics to the below text...
+	//If on kit edit page
 	if(pathname.indexOf('kit-edit') > -1) {
+		//Change select your site specific graphics to the below text...
 		$('#nextStep').text('Customise your site specific graphics');
+		var kitName = $('#ekkit h2').substring(4);
+		var kitNamev2 = 'You have selected a ' + kitName + ', please customise your artwork to the right and then click continue';
+		$('#ekkit h2').text(kitNamev2);
 	}
 	 
 	//Remove prefix for product order
