@@ -188,6 +188,10 @@ $(document).ready(function(){
 
 	if(pathname.indexOf('additional-items') > -1) {
 		$('.progressSteps').detach();
+		$('.progressStep1').detach();
+		$('.progressStep2').detach();
+		$('.progressStep3').detach();
+		$('.progressStep4').detach();
 	}
 
 
