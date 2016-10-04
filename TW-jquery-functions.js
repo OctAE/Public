@@ -419,7 +419,11 @@ $(document).ready(function(){
 	$('strong:contains(Your data will not be shared with any 3rd parties other than Protx for payment processing.)').hide();
 
 	
-
+	//Change your are at text to the below
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('You are at', 'Current order status')); 
+	});
 
    if (pathname.indexOf('forgot-password') > -1) {
 
