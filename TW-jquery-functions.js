@@ -161,7 +161,7 @@ $(document).ready(function(){
     	$(this).text(text.replace('04. Alternative Cabin (Retractable Fascia)', 'Alternative Cabin (Retractable Fascia)'));
 	});
 
-	$('div strong').each(function() {
+	/*$('div strong').each(function() {
     	var text = $(this).text();
     	$(this).text(text.replace('01-sales-office', 'sales office'));
 	});
@@ -184,7 +184,7 @@ $(document).ready(function(){
 	$('div strong').each(function() {
     	var text = $(this).text();
     	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
-	});
+	});*/
 
 
 
