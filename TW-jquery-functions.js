@@ -122,7 +122,7 @@ $(document).ready(function(){
 	 
 	//Remove prefix for product order
 	//Change your are at text to the below
-	$('span').each(function() {
+	$('.productGridTD > div > span').each(function() {
     	var text = $(this).text();
     	$(this).text(text.replace('01. Standard Double/Triple Garage', 'Standard Double/Triple Garage')); 
     	$(this).text(text.replace('02. Standard House', 'Standard House')); 
