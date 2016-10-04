@@ -119,8 +119,8 @@ $(document).ready(function(){
 	if(pathname.indexOf('kit-edit') > -1) {
 		//Change select your site specific graphics to the below text...
 		$('#nextStep').text('Customise your site specific graphics');
-		var kitNameLength = $('#ekkit h2').length;
 		var kitName = $('#ekkit h2').substring(4, kitNameLength);
+		kitName = kitName.substr(4);
 		var kitNamev2 = 'You have selected a ' + kitName + ', please customise your artwork to the right and then click continue';
 		$('#ekkit h2').text(kitNamev2);
 		$('#addToBaskettext').text('Contunue');
