@@ -85,7 +85,7 @@ $(document).ready(function(){
 	 }
 	 
 	 $('#shippingLabel').html('Site Address:');
-	 $('label[for=termscheck], input#termscheck').detach();
+	 $('label[for=termscheck], input#termscheck').hide();
 	 $('input#termscheck').attr('checked', true);
 	 
 	 if (pathname.indexOf('public') > -1){
