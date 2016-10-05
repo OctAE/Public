@@ -85,8 +85,8 @@ $(document).ready(function(){
 	 }
 	 
 	 $('#shippingLabel').html('Site Address:');
-	 $('label[for=termscheck], input#termscheck').html('I agree to have used or new furniture');
-	 //$('input#termscheck').attr('checked', true);
+	 $('label[for=termscheck], input#termscheck').detach();
+	 $('input#termscheck').attr('checked', true);
 	 
 	 if (pathname.indexOf('public') > -1){
         $(".stepsHighlight").hide();
@@ -124,8 +124,11 @@ $(document).ready(function(){
 		kitName = kitName.substr(4);
 		var kitNamev2 = 'You have selected a ' + kitName + ', please customise your artwork to the right and then click continue';
 		$('#ekkit h2').text(kitNamev2);
-		$('#addToBaskettext').text('Contunue');
+		$('#addToBaskettext').text('Continue');
 	}
+
+	$('.approveButtonTxt').text('Approve Graphics');
+	$('#STOP_SIGNOFF_TEXT').text('Approve Graphics');
 	 
 	//Remove prefix for product order
 	$('div.centrealign span').each(function() {
