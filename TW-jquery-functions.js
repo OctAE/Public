@@ -186,7 +186,8 @@ $(document).ready(function(){
     	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
 	});*/
 
-	if(pathname.indexOf('additional-items') > -1) {
+	if (pathname.indexOf('additional-items') > -1){
+		alert('additional-items');
 		$('.progressSteps').detach();
 		$('.progressStep1').detach();
 		$('.progressStep2').detach();
