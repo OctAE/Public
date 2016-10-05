@@ -387,13 +387,13 @@ $(document).ready(function(){
     		//backUrlText = backUrlText.replace("/", " > ");
     		$('p.continueShopping').addClass('goBackToCat');
     	    //$('p.continueShopping a').attr({href:backUrl});
-    	    $('p.continueShopping a').attr({href:"http://taylorwimpeystore.octink.com/taylorwimpey/products/02.-alternative-finish-shell/02-additional-items"});
+    	    $('p.continueShopping a').attr({href:"http://taylorwimpeystore.octink.com/taylorwimpey/products/additional-items/02.-alternative-finish-shell"});
     		$('p.continueShopping a').html('add additional items');
     		
     	    } else if (referrer.indexOf('standard') > -1) {
     	    $('p.continueShopping').addClass('goBackToCat');
     	    //$('p.continueShopping a').attr({href:backUrl});
-    	    $('p.continueShopping a').attr({href:"http://taylorwimpeystore.octink.com/taylorwimpey/products/01.-standard-finish-swirl/02-additional-items"});
+    	    $('p.continueShopping a').attr({href:"http://taylorwimpeystore.octink.com/taylorwimpey/products/additional-items/01.-standard-finish-swirl"});
     		$('p.continueShopping a').html('add additional items');
     	    }
     	}
