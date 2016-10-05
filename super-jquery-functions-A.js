@@ -219,13 +219,13 @@ $(document).ready(function(){
 	//Add Video Tutorial link to footer
 
 	 if (pathname.indexOf('index') < 0) {
-	         $('#footContent p').append('<span> | </span><a href="https://googledrive.com/host/0BwH8qt4hNhT5THVCNVBvbDZaTDg/" target="_blank">User Guide</a>');
+	         $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/User-Guide.pdf" target="_blank">User Guide</a>');
 	          }
    
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://googledrive.com/host/0BwH8qt4hNhT5WFdUYWNkdGYwWDg/' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://cdn.rawgit.com/OctAE/Public/master/super-footerOctink.jpg' alt='Octink'></a>");
 
 
     //After "Add to Order" go to Basket page as normal, but add text "Product has been added to basket, return to category..."
@@ -263,7 +263,7 @@ $(document).ready(function(){
     $('h2#notesProductionheader').html('Add store reference/notes');
 
     //Replace bin icon on "Customised your image" on Product individual page - customized items
-    $('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
+    $('#editImage .img_trash img').attr({src:"https://cdn.rawgit.com/OctAE/Public/master/super-bin.png"});
 
     //Add "Thank you" add the begining of message on Order complete page
     $('.invoiceback p:nth-of-type(1)').before('<h2>Thank you</h2>'); 
@@ -278,7 +278,7 @@ $(document).ready(function(){
     $('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/superdry/products">Open Catalogue</a> to place another order, or <a href="/superdry/logout">Log Out</p>');
 
     //Add product key on product individual page
-    $('#rightcol').append('<div id="productKey"><img src="https://googledrive.com/host/0BwH8qt4hNhT5TVNqYlRqYnhadlE/"></div>');
+    $('#rightcol').append('<div id="productKey"><img src="https://cdn.rawgit.com/OctAE/Public/master/super-key.png"></div>');
 
     //Order approval page
     if (pathname.indexOf('order-approval') > -1) {

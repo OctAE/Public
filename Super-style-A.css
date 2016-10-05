@@ -60,7 +60,7 @@ div#consolenormal {
 .sage {
   border: 0px;
   margin: 0;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5VVhjOUJhTS1CcmM/) 130px 3px no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/magnifying-glass.png) 130px 3px no-repeat;
   background-color: white;
 }
 
@@ -177,7 +177,7 @@ td.stepsPlain::after {
   display: block; 
   width: 20px; 
   height: 42px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5ZExoU2x0WXVRUkU/) no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-breadcrumbPlain.png) no-repeat;
   position: absolute;
   top:0px;
   right:-15px;
@@ -194,7 +194,7 @@ td.stepsPlain::after {
   display: block; 
   width: 20px; 
   height: 42px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5LUk2bzg3c1NLdWc/) no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-breadcrumbHighlight.png) no-repeat;
   position: absolute;
   top:0px;
   right:-15px;
@@ -413,7 +413,7 @@ a#addToKit span {
   right: 2px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
 }
 
 
@@ -490,7 +490,7 @@ strong#STOP_PONUMBER_TEXT:before {
   right: 2px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
   }
 
   #STOP_PONUMBER {
@@ -614,7 +614,7 @@ position: relative;
   right: 445px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
 }
 
 #CustomPaymentInfo #orderSubTotal td:nth-of-type(2), #CustomPaymentInfo #orderTax td:nth-of-type(2), #CustomPaymentInfo #orderDelivery td:nth-of-type(2),#CustomPaymentInfo #orderTotal td:nth-of-type(2) {
