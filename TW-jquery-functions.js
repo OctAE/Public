@@ -161,31 +161,6 @@ $(document).ready(function(){
     	$(this).text(text.replace('04. Alternative Cabin (Retractable Fascia)', 'Alternative Cabin (Retractable Fascia)'));
 	});
 
-	/*$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('01-sales-office', 'sales office'));
-	});
-	$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('01 sales office', 'sales office'));
-	});
-	$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('01.-standard-finish-swirl', 'standard finish swirl'));
-	});
-	$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('01. standard finish swirl', 'standard finish swirl'));
-	});
-	$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('02. alternative finish shell', 'alternative finish shell'));
-	});
-	$('div strong').each(function() {
-    	var text = $(this).text();
-    	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
-	});*/
-
 
 //********************STEPS**********************//
 
@@ -471,6 +446,32 @@ $(document).ready(function(){
 		      $('.progressSteps').next().after(breadcrumbHtml);
 			}
 		}
+
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('01-sales-office', 'sales office'));
+	});
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('01 sales office', 'sales office'));
+	});
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('01.-standard-finish-swirl', 'standard finish swirl'));
+	});
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('01. standard finish swirl', 'standard finish swirl'));
+	});
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('02. alternative finish shell', 'alternative finish shell'));
+	});
+	$('div strong').each(function() {
+    	var text = $(this).text();
+    	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
+	});
+
 	//Hide breadcrumbs on additional items page
 	if (pathname.indexOf('additional-items') > -1){
 		$('.progressSteps').detach();
