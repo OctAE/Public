@@ -114,6 +114,7 @@ $(document).ready(function(){
 	$('#orderSubTotal').detach();
 	$('#orderDelivery').detach();
 	$('#orderTotal').detach();
+	$('#orderTax').detach();
 
 	//If on kit edit page
 	if(pathname.indexOf('kit-edit') > -1) {
