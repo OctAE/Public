@@ -2,6 +2,7 @@
 /* ============================== MAIN WRAPPERS ============================== */
 .centrealign_split {
 	padding: 0 20px;
+  box-sizing: content-box ;
 }
   body {
   background-color: #FFFFFF;
