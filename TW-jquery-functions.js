@@ -186,15 +186,6 @@ $(document).ready(function(){
     	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
 	});*/
 
-	if (pathname.indexOf('additional-items') > -1){
-		alert('additional-items');
-		$('.progressSteps').detach();
-		$('.progressStep1').detach();
-		$('.progressStep2').detach();
-		$('.progressStep3').detach();
-		$('.progressStep4').detach();
-	}
-
 
 //********************STEPS**********************//
 
@@ -480,6 +471,14 @@ $(document).ready(function(){
 		      $('.progressSteps').next().after(breadcrumbHtml);
 			}
 		}
+	//Hide breadcrumbs on additional items page
+	if (pathname.indexOf('additional-items') > -1){
+		$('.progressSteps').detach();
+		$('.progressStep1').detach();
+		$('.progressStep2').detach();
+		$('.progressStep3').detach();
+		$('.progressStep4').detach();
+	}
 
 	//Replace button text "Click to go to kit ......" to "< back to kit overview"
 	$('#addToKit span:contains(go to kit)').html(' < return to items overview ');
