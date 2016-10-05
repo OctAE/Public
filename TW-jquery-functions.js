@@ -162,6 +162,8 @@ $(document).ready(function(){
     	$(this).text(text.replace('04. Alternative Cabin (Retractable Fascia)', 'Alternative Cabin (Retractable Fascia)'));
 	});
 
+	$("strong:contains('Sub Total')").parent().detach();
+
 
 //********************STEPS**********************//
 
