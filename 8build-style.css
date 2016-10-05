@@ -1,0 +1,751 @@
+
+/* Copyright 2015 Octink. All rights reserved. */
+
+
+body { background: url(https://cdn.rawgit.com/OctAE/Public/master/8build-BrickWall.jpg) top left repeat; }
+
+
+
+.centrealign_split {
+	background-color: #ffffff;
+	border: 20px solid white;
+	border-top: 0px;
+	margin-top: 20px;
+  box-sizing: content-box;
+}
+
+
+#copyContent {display: none;}
+
+.bgmed {
+  background-color: #CCCCCC;
+  color: black;
+  font: 11px arial,helvetica,sans-serif;
+  font-weight: normal;
+  padding: 4px;
+}
+
+.hideMe {
+  display: none;
+}
+
+#projectscell {
+  display: none;
+}
+
+
+/* ========= TOP BANNER ========= */
+#logo-placed {
+  padding-top: 15px;
+}
+
+
+/* ========= MAIN NAVIGATION ========= */
+
+ul#navivert {
+  width: auto;
+  background-color: white;
+  float: right;
+  font-size: 10px;
+  border-bottom: 8px solid #706F6F;
+  margin-bottom: 15px;
+}
+
+ul#navivert {
+  text-align: right;
+}
+
+ul#navivert li a {
+  width: 142px;
+  box-sizing: content-box;
+  
+}
+
+
+ul#navivert li a span {
+  margin: 7px 0 0 0;
+}
+
+
+.activemenuitem {
+  background: #706F6F !important;
+  color: white !important;
+}
+
+ul#navivert li a:hover {
+  color: #FFFFFF;
+  background: #706F6F;
+}
+
+/* Drop down Menu */
+
+#navivert li:nth-of-type(2) a {
+  margin-right: 570px;
+}
+
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+#liDropDown > a {
+  line-height: 22px
+}
+
+#liDropDown {
+  position:relative;
+}
+
+
+#headzupsock li:hover #ulDropDown {
+    z-index:2;
+    opacity:1;
+}
+
+ 
+#ulDropDown {
+    position:absolute;
+    top:28px;
+    right: 1px;
+    z-index:-1;
+    opacity:0;
+    width: 142px;
+}
+ 
+#ulDropDown li {
+    display:block !important;
+    font-size:11px;
+    width: 142px;
+    float:right;
+    background: none !important;
+}
+
+#ulDropDown li a {
+    background: #706F6F !important;
+}
+
+#ulDropDown li:hover a {
+    color: white !important;
+}
+
+ul#navivert li #ulDropDown li a {
+  width: 142px;
+  padding-top: 10px;
+}
+
+
+#ulDropDown li a span {
+  display:block !important;
+}
+
+
+
+/* ========= LOGGED OUT PAGE ========= */
+
+#loggedOutText {
+  padding-top: 80px;
+  font-size: 16px;
+  color: #AD3333;
+  font-family: verdana;
+}
+
+
+/* ========= STEPS ========= */
+
+.stepsPlain, .stepsHighlight {
+  background-color: #C2E2E6;
+  position:relative;
+  width: 235px;
+  margin: 10px 15px 25px 0;
+  border-radius: 3px;
+}
+.stepsPlain:after {
+  content: "";  
+  border-top: 16px solid white;
+  border-bottom: 16px solid white;
+  border-left: 16px solid #C2E2E6;
+  position: absolute; right: -13px; top: 0px;
+}
+
+.stepsPlain:before {
+  content: "";  
+  border-top: 16px solid #C2E2E6;
+  border-bottom: 16px solid #C2E2E6;
+  border-left: 16px solid white;
+  position: absolute; right: 221px; top: 0px;
+ }
+
+.stepsPlain:first-of-type::before {
+  content: none;  
+ }
+
+.stepsHighlight {
+  background-color: #339EAD;
+}
+
+.stepsHighlight:after {
+  content: "";  
+  border-top: 16px solid white;
+  border-bottom: 16px solid white;
+  border-left: 16px solid #339EAD;
+  position: absolute; right: -13px; top: 0px;
+}
+
+.stepsHighlight:before {
+  content: "";  
+  border-top: 16px solid #339EAD;
+  border-bottom: 16px solid #339EAD;
+  border-left: 16px solid white;
+  position: absolute; right: 221px; top: 0px;
+ }
+
+.stepsHighlight p {
+ color: white ;
+}
+
+.noAfter:after {
+  display:none;
+}
+
+.noBefore:before {
+  display:none;
+}
+
+
+/* ========= HOMEPAGE ========= */
+
+#searchcell input{
+  border: 1px solid #33A3B2;
+  padding: 3px;
+  margin-top: -5px;
+  box-sizing: content-box;
+}
+
+#homeContent {
+  width: 1000px !important;
+   margin-top: 5px;
+}
+
+
+#homeContent img {
+  width: auto !important;
+}
+
+#homeLogin {
+  margin-top: 15px;
+  margin-bottom: 50px;
+  width: 23% !important;
+}
+
+#homeLogin form {
+  margin-bottom: 25px;
+}
+
+#indexNewCustomer {
+  padding: 7px 0px 0px 0px;
+}
+
+
+
+/* ========= CATALOGUE ========= */
+
+.leftalign {
+  margin-top: 10px;
+}
+
+.leftalign table:nth-child(1) select {
+  font-size: 8pt;
+  background-color: #33A3B2;
+  color: white;
+  border: none;
+  height: 20px;
+}
+
+.leftalign table:nth-child(1) tbody tr td:nth-child(2) {
+	padding-right: 15px;
+}
+
+
+#productGridTable td {
+  background: #f0f0f0;
+  border: 5px solid white !important;
+  padding: 10px 0px 7px 0px;
+}
+
+#categoryGridTable td {
+  border: none !important;
+}
+
+td.categoryGridTD span {display: none}
+
+
+/* ========= INDIVIDUAL PRODUCT =========  */
+
+td.editPrintBkCol form#edit {
+  background-color: #C4C3C3;
+  width: 100%;
+  display: block;
+  float: left;
+  border-bottom: 20px solid #C4C3C3;
+  border-top: 40px solid black;
+  margin-top: 15px !important;
+  padding-top: 10px !important;
+  position: relative;
+}
+
+td.editPrintBkCol form#edit:before {
+  content:"Customise your item";
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  top: -32px;
+  left: 8px
+}
+
+
+.epconfigimageinner {
+  background-color: #C4C3C3 !important;
+  width: 100.5%;
+  display: block;
+  float: right;
+  border-bottom: 20px solid #C4C3C3;
+  border-top: 40px solid black;
+  margin-bottom: 25px !important;
+  padding-top: 10px !important;
+  position: relative;
+}
+
+.epconfigimageinner:before {
+  content:"Customise your image";
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  top: -32px;
+  left: 8px
+}
+
+
+table.epconfig  tbody tr:nth-of-type(2) td.editPrintBkCol {
+  display:none;
+}
+
+.substrongfour {
+  position: relative;
+  top: 12px;
+}
+
+
+.add30bottom {
+  margin-bottom:30px;
+}
+
+
+
+/* !!!!!!!!!!!!!!!!!!! WARNING! This removes Pages and Notes boxes !!!!!!!!!!!!!!!! */
+
+.brandboxshell:nth-of-type(4), .brandboxshell:nth-of-type(6) {
+  display:none;
+}
+
+
+
+/* ========= BASKET =========  */
+
+#poInput input {
+  width: 180px;
+}
+
+#STOP_PONUMBER_TEXT {
+  position: relative;
+  left:-385px;
+}
+
+strong#STOP_PONUMBER_TEXT {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+strong#STOP_PONUMBER_TEXT:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  right: 2px;
+  height: 26px;
+  width: 26px;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
+  }
+
+  #STOP_PONUMBER {
+  text-align: center;
+  margin-left: -350px;
+  margin-top: -10px;
+  }
+
+  .small11px {
+    display: none;
+  }
+
+
+/* ========= CHECKOUT PAGE ========= */
+
+#billingAddress {
+  display: none;
+}
+
+#customerName {
+  display: none;
+}
+
+#paymentMessage, #testTransaction {
+  display: none;
+}
+
+#tandccheckbox {
+  display: none;
+}
+
+
+#orderNumber td.notBgmed, #customerName td.notBgmed, #deliveryAddress td.notBgmed, #phoneNumber td.notBgmed, #emailAddress td.notBgmed, #poNumber td.notBgmed {
+  background-color: #F2F2F2;
+  padding: 5px;
+}
+
+#orderNumber td.bgmed span, #orderSubTotal td:nth-of-type(2), #orderTax td:nth-of-type(2), #orderDelivery td:nth-of-type(2), #orderTotal td:nth-of-type(2) {
+  font-weight: bold;
+}
+
+
+#deliveryAddress td.notBgmed {
+position: relative;
+}
+
+#DeliveryWarningMsg {
+  color: #AE3333;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  position: absolute;
+  width: 440px;
+  left:250px;
+  top:40px;
+}
+
+#DeliveryWarningMsg:before {
+ content: "";
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  right: 445px;
+  height: 26px;
+  width: 26px;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
+}
+
+#CustomPaymentInfo #orderSubTotal td:nth-of-type(2), #CustomPaymentInfo #orderTax td:nth-of-type(2), #CustomPaymentInfo #orderDelivery td:nth-of-type(2),#CustomPaymentInfo #orderTotal td:nth-of-type(2) {
+  padding: 0px;
+  background-color:white;
+}
+
+
+.checkoutPrices {
+  padding-right: 4px;
+  width: 100px;
+  float:right;
+  background-color: #CCCCCC;
+}
+
+.checkoutPrices p {
+  line-height: 4px
+}
+
+#CustomPaymentInfo #orderSubTotal td:nth-of-type(3), #CustomPaymentInfo #orderTax td:nth-of-type(3), #CustomPaymentInfo #orderDelivery td:nth-of-type(3), #CustomPaymentInfo #orderTotal td:nth-of-type(3) {
+  background-color: #F2F2F2;
+}
+/* ========= ORDER COMPLETE PAGE =========  */
+
+
+
+.invoiceback {
+  height: 270px;
+  margin: -30px auto 0px;
+  background-image: none;
+  background-color: #F2F2F2 
+}
+
+.invoiceback h2 {
+  font-size: 30px;
+  font-family: verdana;
+  padding-top: 20px;
+  margin-bottom: -2px;
+}
+
+.invoiceback p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.invoiceback p:nth-of-type(1){
+  padding: 0px !important;
+}
+
+
+.invoiceback p:nth-of-type(2){
+  padding: 12px !important;
+}
+
+.invoiceback p:nth-of-type(3){
+  padding-top: 8px !important;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.invoiceback p:nth-of-type(4){
+  padding-top: 4px !important;
+  font-size: 12px;
+}
+
+#afterCompleteMsg {
+  
+}
+
+
+
+/* ========= EDIT DETAILS PAGE =========  */
+
+hr.blockline {
+  display:none;
+}
+
+#customerloginas a:nth-of-type(1) {
+  display: none;
+}
+
+#customerloginas {
+  margin: 10px 0px 10px -8px;
+}
+
+.mandatory {
+  margin-left: -15px;
+}
+
+/* ========= FOOTER =========  */
+/* Two different styles for footer as RedTie placed footer in .centrealign_split div on some pages, and out on different pages  */
+
+#footContent {
+	width: 1040px;
+	padding: 0px 0px 20px 0px;
+}
+
+.centrealign_split #footContent {
+	width: 1020px;
+	padding: 40px 0px 0px 0px;
+}
+
+.botlinks {
+  text-align: left;
+}
+
+.botlinks p span {
+  color: #33A3B2;
+}
+
+
+.botlinks  a {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+ .botlinks  a:first-of-type {
+  margin-left: 20px;
+}
+
+.centrealign_split .botlinks p a:first-of-type {
+  margin-left: 0px !important;
+}
+
+#footer-image {
+	float:right;
+	margin-top: -25px;
+}
+
+
+/* ========= BUTTONS =========  */
+
+p.continueShopping {
+  margin: 50px 0px 40px 0px;
+}
+
+p.continueShopping a {
+  color: #ffffff;
+  font-size: 16px;
+  background: #33A3B2;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+p.continueShopping.underSteps {
+  text-align: right;
+  margin: 20px 0px 40px 0px;
+}
+
+p.continueShopping a:before { 
+content: "< ";
+color:white;
+}
+
+p.continueShopping a:hover, p.continueShopping a:hover::before  {
+  text-decoration: none;
+  color: black;
+}
+
+#continueButton {
+height: 0px;
+}
+
+#continueButtonEnv {
+margin-left: 9px !important;
+}
+
+#continueButtonEnv #continueButton {
+  border: 0px;
+}
+
+#ORDER_CONTINUE, #STOP_COURIER_ADDRESS, #STOP_COURIER, #STOP_ADDRESS, #STOP_SIGNOFF, #STOP_PONUMBER, #STOP_PONUMBER_TEXT, #STOP_NSCONTACT, #STOP_NSCONTACT_TEXT, #STOP_OTHER {
+  background-color: white;
+  border: 0px;
+  padding-right: 0px !important;
+  text-align: right !important;
+  color: #AE3333;
+}
+
+.betabutton {
+    margin: 10px 0px 30px -15px;
+}
+
+.visible .betabutton {
+    margin: 10px 0px 0px -15px;
+}
+
+
+.gammabutton a, .betabutton a {
+margin-right: 0px !important;
+}
+
+.betabutton a {
+background: none;
+}
+
+.gammabutton a span, .betabutton a span, #STOP_SIGNOFF a{
+  background: none;
+  background: #e03e3e;
+  background-image: -webkit-linear-gradient(top, #e03e3e, #852525);
+  background-image: -moz-linear-gradient(top, #e03e3e, #852525);
+  background-image: -ms-linear-gradient(top, #e03e3e, #852525);
+  background-image: -o-linear-gradient(top, #e03e3e, #852525);
+  background-image: linear-gradient(to bottom, #e03e3e, #852525);
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.gammabutton a:hover span, .betabutton a:hover span, #STOP_SIGNOFF a:hover{
+  background: #e64343;
+  background-image: -webkit-linear-gradient(top, #e64343, #a33131);
+  background-image: -moz-linear-gradient(top, #e64343, #a33131);
+  background-image: -ms-linear-gradient(top, #e64343, #a33131);
+  background-image: -o-linear-gradient(top, #e64343, #a33131);
+  background-image: linear-gradient(to bottom, #e64343, #a33131);
+  text-decoration: none;
+ }
+
+#STOP_SIGNOFF a {
+  font-size: 16px;
+}
+
+
+
+.gammabutton a {
+  background: none;
+}
+
+.cell_signoff .betabutton a span, #poInput .betabutton a span {
+  background: #B03333;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+  margin: 0px 0px 30px 0px;
+}
+
+#poInput .betabutton {
+  margin-top: 0px
+}
+
+.cell_signoff .betabutton a:hover span, #poInput .betabutton a:hover span {
+  background: #B03333;
+  color: black;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+}
+
+
+
+#deliveryAddress td.notBgmed .alphabutton a span, #deliveryAddress td.notBgmed .alphabutton a  {
+  background: none;
+  color: #33A3B2;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#deliveryAddress td.notBgmed .alphabutton a:hover span {
+  color: black;
+}
+
+#deliveryAddress td.notBgmed .alphabutton {
+  margin-top: 10px
+}
+
+#CustomPaymentInfo .betabutton {
+  margin: 10px -8px 30px -15px;
+}
+
+.alphabutton a#btnProdSave {
+  margin-left: 11px;
+}
+
+.alphabutton a#btnProdSave span, .alphabutton a#btnProdReset span {
+  padding: 3px 14px 9px 0px;
+}
+
+#startFromScratch {
+  display: inline-block;
+}
+
+
+
+/* PUP UP PICTURE WINDOWS */
+#popup {
+  position: absolute;
+  border:1px solid black;
+  width: 320px !important;
+  padding:10px;
+  background-color: white;
+
+}
+ 
+#popup img {
+    width: 320px !important;
+    background-color: white;
+} 
