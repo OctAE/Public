@@ -877,7 +877,7 @@ margin-left: 9px !important;
 }
 
 #ORDER_CONTINUE, #STOP_COURIER_ADDRESS, #STOP_COURIER, #STOP_ADDRESS, #STOP_SIGNOFF, #STOP_PONUMBER, #STOP_PONUMBER_TEXT, #STOP_NSCONTACT, #STOP_NSCONTACT_TEXT, #STOP_OTHER {
-  background-color: #f5f5f5;
+  /*background-color: #f5f5f5;*/
   border: 0px;
   padding-right: 0px !important;
   text-align: right !important;
