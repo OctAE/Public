@@ -176,6 +176,7 @@ ul#navivert li #ulDropDown li a {
   overflow: hidden;
   margin-bottom: 20px;
   width: 1000px !important;
+  border-bottom: 5px solid #3b1953;
 }
 
 .stepsPlain, .stepsHighlight {
