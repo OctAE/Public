@@ -167,6 +167,8 @@ $(document).ready(function(){
 
 	$("strong:contains('Sub Total')").parent().detach();
 
+	$('img[title="View invoice"]').detach();
+
 
 //********************STEPS**********************//
 
