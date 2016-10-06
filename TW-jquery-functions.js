@@ -244,7 +244,7 @@ $(document).ready(function(){
 
 	       } else {
 	       	
-	       	$("span:contains('Save details')").parent().parent().addClass('floatrigth').parent().prepend('<div class="betabutton" style="float:right; padding: 12px 0; margin-left: 20px"><a href="/taylorwimpey/order-confirm"><span>Proceed to Order Confirmation</span></a></div>');
+	       	$("span:contains('Save details')").parent().parent().addClass('floatrigth').parent().prepend('<div class="betabutton" style="float:right; padding: 12px 0; margin-left: 20px"><a href="/taylorwimpey/order-confirm"><span>Continue</span></a></div>');
 
 	       }
  
@@ -608,7 +608,7 @@ $(document).ready(function(){
 	}
 
 //Thanks "Add to kit" to Proceed
-$('a:contains("Add to kit")').html('Proceed');
+$('a:contains("Add to kit")').html('Continue');
 
 //add class to empty product box in category view
 if ((pathname.indexOf('01.-standard-finish-swirl/01-suites') > -1 ) || (pathname.indexOf('02.-alternative-finish-shell/01-suites') > -1 ) ) {
