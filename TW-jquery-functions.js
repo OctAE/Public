@@ -438,7 +438,7 @@ $(document).ready(function(){
      //Change text of message on Order complete page
 
     if (!(pathname.indexOf('order-approval') > -1)) { 
-    	$('.invoiceback p:nth-of-type(3)').html('Thank you for your sales office order. You will receive an email which will inform you on what to do next.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
+    	$('.invoiceback p:nth-of-type(3)').html('Thank you for your sales order request, you will shortly receive an email requesting you to reply and attach your technical drawing. Once received a member of the Octink team will be in touch within 24 to 48 hours with your floor plan, quote, and install date.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
 	}
 
     //Add navigation text below order complete message
