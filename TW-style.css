@@ -89,7 +89,7 @@ div#consolenormal {
 .sage {
   border: 0px;
   margin: 0;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5VVhjOUJhTS1CcmM/) 130px 3px no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/magnifying-glass.png) 130px 3px no-repeat;
   background-color: white;
 }
 
@@ -449,7 +449,7 @@ a#addToKit span {
   right: 2px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
 }
 
 
@@ -517,7 +517,7 @@ strong#STOP_PONUMBER_TEXT:before {
   right: 2px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
   }
 
   #STOP_PONUMBER {
@@ -642,7 +642,7 @@ position: relative;
   right: 445px;
   height: 26px;
   width: 26px;
-  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) top left no-repeat;
 }
 
 #CustomPaymentInfo #orderSubTotal td:nth-of-type(2), #CustomPaymentInfo #orderTax td:nth-of-type(2), #CustomPaymentInfo #orderDelivery td:nth-of-type(2),#CustomPaymentInfo #orderTotal td:nth-of-type(2) {
@@ -1029,7 +1029,7 @@ background: none;
  }
 
 .addUrgentIcon {
- background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) no-repeat;
+ background: url(https://cdn.rawgit.com/OctAE/Public/master/super-displayboxheading.png) no-repeat;
  background-size: 16px;
 }
 
