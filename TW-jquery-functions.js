@@ -169,6 +169,7 @@ $(document).ready(function(){
 
 	$('img[title="View invoice"]').detach();
 
+	$('strong:contains("[Check to copy to delivery address]")').detach();
 
 //********************STEPS**********************//
 
@@ -422,7 +423,7 @@ $(document).ready(function(){
      //Change text of message on Order complete page
 
     if (!(pathname.indexOf('order-approval') > -1)) { 
-    	$('.invoiceback p:nth-of-type(3)').html('Your Octink Account Handler<br>will be in touch to confirm your install date').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your signage supplier</p>'); 
+    	$('.invoiceback p:nth-of-type(3)').html('You will receive an email which will inform you on what to do next.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
 	}
 
     //Add navigation text below order complete message
