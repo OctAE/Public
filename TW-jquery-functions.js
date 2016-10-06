@@ -423,7 +423,7 @@ $(document).ready(function(){
      //Change text of message on Order complete page
 
     if (!(pathname.indexOf('order-approval') > -1)) { 
-    	$('.invoiceback p:nth-of-type(3)').html('Thank you for your Sales OFfice order. You will receive an email which will inform you on what to do next.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
+    	$('.invoiceback p:nth-of-type(3)').html('Thank you for your sales office order. You will receive an email which will inform you on what to do next.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
 	}
 
     //Add navigation text below order complete message
