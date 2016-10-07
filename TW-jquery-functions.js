@@ -505,19 +505,19 @@ $(document).ready(function(){
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('01.-standard-finish-swirl', 'standard finish swirl'));
+    	$(this).text(text.replace('01.-Standard-Face', 'Standard Face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('01. standard finish swirl', 'standard finish swirl'));
+    	$(this).text(text.replace('01. Standard Face', 'Standard Face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('02. alternative finish shell', 'alternative finish shell'));
+    	$(this).text(text.replace('02. Alternative Face', 'Alternative Face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('02.-alternative-finish-shell', 'alternative finish shell'));
+    	$(this).text(text.replace('02.-Alternative-Face', 'Alternative Face'));
 	});
 
 	//Hide breadcrumbs on additional items page
