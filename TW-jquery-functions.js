@@ -309,7 +309,7 @@ $(document).ready(function(){
 	//Change "ponumber" type to date
 	var myDate = new Date();
 	var numberOfDaysToAdd = 14;
-	myDate.setDate(todayDate.getDate() + numberOfDaysToAdd);
+	myDate.setDate(myDate.getDate() + numberOfDaysToAdd);
 	var dd = myDate.getDate();
 	var mm = myDate.getMonth() + 1;
 	var y = myDate.getFullYear();
