@@ -305,8 +305,17 @@ $(document).ready(function(){
 	 //Change "Please check Order reference" to "Please add order reference"
     $('strong#STOP_PONUMBER_TEXT').html('Please enter your prefered install date');
     
-    //Change "ponumber" type to date
+
+	//Change "ponumber" type to date
+	var todayDate = new Date();
+	var numberOfDaysToAdd = 14;
+	var MinDate = todayDate.setDate(todayDate.getDate() + numberOfDaysToAdd);
+	var dd = MinDate.getDate();
+	var mm = MinDate.getMonth() + 1;
+	var y = MinDate.getFullYear();
+	var FormattedMinDate = y + '-'+ mm + '-'+ dd;
     $('#ponumber').prop('type', 'date');
+    $('#ponumber').prop('min', FormattedMinDate);
 
     /*$('#PO_ADD_TEXT').click(function(){
     	var date = new Date();
