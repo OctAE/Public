@@ -307,13 +307,13 @@ $(document).ready(function(){
     
 
 	//Change "ponumber" type to date
-	var todayDate = new Date();
+	var myDate = new Date();
 	var numberOfDaysToAdd = 14;
-	var MinDate = todayDate.setDate(todayDate.getDate() + numberOfDaysToAdd);
-	var dd = MinDate.getDate();
-	var mm = MinDate.getMonth() + 1;
-	var y = MinDate.getFullYear();
-	var FormattedMinDate = y + '-'+ mm + '-'+ dd;
+	myDate.setDate(todayDate.getDate() + numberOfDaysToAdd);
+	var dd = myDate.getDate();
+	var mm = myDate.getMonth() + 1;
+	var y = myDate.getFullYear();
+	var FormattedMinDate = y+'-'+mm+'-'+dd;
     $('#ponumber').prop('type', 'date');
     $('#ponumber').prop('min', FormattedMinDate);
 
