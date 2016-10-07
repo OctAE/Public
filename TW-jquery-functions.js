@@ -318,7 +318,7 @@ $(document).ready(function(){
     //$('#ponumber').prop('min', FormattedMinDate);
     $(function() {
     $( "#ponumber" ).datepicker({ 
-        minDate: '+18D',
+        minDate: '+14D',
     });
 	});
 
