@@ -317,7 +317,7 @@ $(document).ready(function(){
     	var dateYear = $('#ponumber').val().slice(0,4);
     	var dateMonth = $('#ponumber').val().slice(5,7);
     	var dateDay = $('#ponumber').val().slice(8,10);
-    	dateEntered = new Date((dateMonth + '/' + dateDay + '/' +  dateYear);
+    	dateEntered = new Date(dateMonth + '/' + dateDay + '/' +  dateYear);
     	var diff = new Date(twoWeekAgo - dateEntered);
 
 
