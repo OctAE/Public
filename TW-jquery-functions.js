@@ -318,6 +318,7 @@ $(document).ready(function(){
     $(function() {
     $( "#ponumber" ).datepicker({ 
         minDate: '+14D',
+        dateFormat: "yy-mm-dd"
     	});
 	});
 	$('#ponumber').prop('readonly', 'readonly');
