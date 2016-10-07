@@ -308,6 +308,14 @@ $(document).ready(function(){
     //Change "ponumber" type to date
     $('#ponumber').prop('type', 'date');
 
+    $('#ponumber').focusout(function(){
+    	var twoWeekAgo = new Date();
+		twoWeekAgo.setDate(twoWeekAgo.getDate() - 14);
+    	if($('#ponumber').val() < twoWeekAgo) {
+    		alert('Your prefered install date cannot be less than two weeks from today');
+    	}
+    })
+
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
     $('a:contains(CLICK HERE TO CONTINUE SHOPPING)').parent().addClass('continueShopping');
     //Add class to kit customizable products
