@@ -307,33 +307,21 @@ $(document).ready(function(){
     
 
 	//Change "ponumber" type to date
-	var myDate = new Date();
-	var numberOfDaysToAdd = 14;
-	myDate.setDate(myDate.getDate() + numberOfDaysToAdd);
-	var dd = myDate.getDate();
-	var mm = myDate.getMonth() + 1;
-	var y = myDate.getFullYear();
-	var FormattedMinDate = y+'-'+mm+'-'+dd;
-    $('#ponumber').prop('type', 'date');
-    $('#ponumber').prop('min', FormattedMinDate);
+	//var myDate = new Date();
+	//var numberOfDaysToAdd = 14;
+	//myDate.setDate(myDate.getDate() + numberOfDaysToAdd);
+	//var dd = myDate.getDate();
+	//var mm = myDate.getMonth() + 1;
+	//var y = myDate.getFullYear();
+	//var FormattedMinDate = y+'-'+mm+'-'+dd;
+   // $('#ponumber').prop('type', 'date');
+    //$('#ponumber').prop('min', FormattedMinDate);
+    $(function() {
+    $( "#ponumber" ).datepicker({ 
+        minDate: '+18D',
+    });
+	});
 
-    /*$('#PO_ADD_TEXT').click(function(){
-    	var date = new Date();
-		date.setDate(date.getDate() + 14);
-		var twoWeeks = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
-
-    	var dateYear = $('#ponumber').val().slice(0,4);
-    	var dateMonth = $('#ponumber').val().slice(5,7);
-    	var dateDay = $('#ponumber').val().slice(8,10);
-    	var dateEntered = new Date(dateYear, dateMonth-1,  dateDay);
-    	var diff = twoWeeks - dateEntered;
-    	var days = diff / 1000 / 60 / 60 / 24;
-
-    	if(days < 14) {
-    		alert('Your prefered install date cannot be less than two weeks from today');
-    		return;
-    	}
-    })*/
 
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
     $('a:contains(CLICK HERE TO CONTINUE SHOPPING)').parent().addClass('continueShopping');
