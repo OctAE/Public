@@ -310,10 +310,11 @@ $(document).ready(function(){
 
     var date = new Date();
 	date.setDate(date.getDate() + 14);
-	var twoWeekAgo = (date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear();
+	var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
 
     $('#ponumber').focusout(function(){
-    	if($('#ponumber').val() < twoWeekAgo) {
+    	var dateEntered = new Date($('#ponumber').val());
+    	if(new Date(twoWeekAgo - dateEntered) < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     	}
     })
