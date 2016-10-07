@@ -505,19 +505,19 @@ $(document).ready(function(){
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('01.-Standard-Face', 'Standard Face'));
+    	$(this).text(text.replace('01.-standard-sace', 'standard face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('01. Standard Face', 'Standard Face'));
+    	$(this).text(text.replace('01. standard face', 'standard face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('02. Alternative Face', 'Alternative Face'));
+    	$(this).text(text.replace('02. alternative face', 'alternative face'));
 	});
 	$('div strong').each(function() {
     	var text = $(this).text();
-    	$(this).text(text.replace('02.-Alternative-Face', 'Alternative Face'));
+    	$(this).text(text.replace('02.-alternative-face', 'alternative face'));
 	});
 
 	//Hide breadcrumbs on additional items page
