@@ -308,13 +308,16 @@ $(document).ready(function(){
     //Change "ponumber" type to date
     $('#ponumber').prop('type', 'date');
 
-    var date = new Date();
-	date.setDate(date.getDate() + 14);
-	var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
-
     $('#ponumber').focusout(function(){
+    	var date = new Date();
+		date.setDate(date.getDate() + 14);
+		var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
     	var dateEntered = new Date($('#ponumber').val());
-    	var diff = new Date(twoWeekAgo - dateEntered)
+    	dateEntered = new Date((dateEntered.getMonth() + 1) + '/' + dateEntered.getDate() + '/' +  dateEntered.getFullYear());
+    	var diff = new Date(twoWeekAgo - dateEntered);
+
+
+
     	if(diff < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     	}
