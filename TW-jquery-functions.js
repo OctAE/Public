@@ -324,6 +324,7 @@ $(document).ready(function(){
 
     	if(days < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
+    		return;
     	}
     })
 
