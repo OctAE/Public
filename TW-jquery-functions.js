@@ -311,18 +311,18 @@ $(document).ready(function(){
     $('#ponumber').focusout(function(){
     	var date = new Date();
 		date.setDate(date.getDate() + 14);
-		var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
+		var twoWeeks = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
 
     	var dateYear = $('#ponumber').val().slice(0,4);
     	var dateMonth = $('#ponumber').val().slice(5,7);
     	var dateDay = $('#ponumber').val().slice(8,10);
     	var dateEntered = new Date(dateYear, dateMonth-1,  dateDay);
-    	var diff = twoWeekAgo - dateEntered;
+    	var diff = twoWeeks - dateEntered;
     	var days = diff / 1000 / 60 / 60 / 24;
 
 
 
-    	if(days < 14) {
+    	if(days > 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     	}
     })
