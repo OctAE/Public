@@ -320,7 +320,7 @@ $(document).ready(function(){
         minDate: '+14D',
     	});
 	});
-	$('#ponumber').prop('readonly', readonly);
+	$('#ponumber').prop('readonly', 'readonly');
 
 
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
