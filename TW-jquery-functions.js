@@ -310,7 +310,7 @@ $(document).ready(function(){
 
     var date = new Date();
 	date.setDate(date.getDate() + 14);
-	var twoWeekAgo = date.getMonth() + '/' + date.getDate() + '/' +  date.getFullYear();
+	var twoWeekAgo = (date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear();
 
     $('#ponumber').focusout(function(){
     	if($('#ponumber').val() < twoWeekAgo) {
