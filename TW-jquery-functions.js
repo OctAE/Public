@@ -314,13 +314,13 @@ $(document).ready(function(){
 	//var mm = myDate.getMonth() + 1;
 	//var y = myDate.getFullYear();
 	//var FormattedMinDate = y+'-'+mm+'-'+dd;
-   // $('#ponumber').prop('type', 'date');
-    //$('#ponumber').prop('min', FormattedMinDate);
+  
     $(function() {
     $( "#ponumber" ).datepicker({ 
         minDate: '+14D',
-    });
+    	});
 	});
+	$('#ponumber').prop('readonly', readonly);
 
 
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
