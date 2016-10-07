@@ -308,7 +308,7 @@ $(document).ready(function(){
     //Change "ponumber" type to date
     $('#ponumber').prop('type', 'date');
 
-    $('#ponumber').focusout(function(){
+    $('#PO_ADD_TEXT').click(function(){
     	var date = new Date();
 		date.setDate(date.getDate() + 14);
 		var twoWeeks = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
@@ -322,7 +322,7 @@ $(document).ready(function(){
 
 
 
-    	if(days > 14) {
+    	if(days < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     	}
     })
