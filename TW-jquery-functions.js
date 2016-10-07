@@ -314,7 +314,8 @@ $(document).ready(function(){
 
     $('#ponumber').focusout(function(){
     	var dateEntered = new Date($('#ponumber').val());
-    	if(new Date(twoWeekAgo - dateEntered) < 14) {
+    	var diff = new Date(twoWeekAgo - dateEntered)
+    	if(diff < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     	}
     })
