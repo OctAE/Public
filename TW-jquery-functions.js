@@ -309,7 +309,7 @@ $(document).ready(function(){
     $('#ponumber').prop('type', 'date');
 
     var twoWeekAgo = new Date();
-		twoWeekAgo.setDate(twoWeekAgo.getDate() - 14);
+		twoWeekAgo.setDate(twoWeekAgo.getDate() + 14);
     $('#ponumber').focusout(function(){
     	if($('#ponumber').val() < twoWeekAgo) {
     		alert('Your prefered install date cannot be less than two weeks from today');
