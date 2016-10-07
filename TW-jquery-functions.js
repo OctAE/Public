@@ -445,8 +445,10 @@ $(document).ready(function(){
     	$('.invoiceback p:nth-of-type(3)').html('Thank you for submitting your order request and provisional installation date.  You will shortly receive an email asking you to supply your technical drawings in order for us to progress the floor plans and confirm the installation date. If you have any questions in the meantime please do not hesitate to contact a member of your dedicated Taylor Wimpey Team on  020 823 26829.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
 	}
 
+
+
     //Add navigation text below order complete message
-    $('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/taylorwimpey/products">Open Catalogue</a> to place another order, or <a href="/taylorwimpey/logout">Log Out</p>');
+    //$('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/taylorwimpey/products">Open Catalogue</a> to place another order, or <a href="/taylorwimpey/logout">Log Out</p>');
 
     //Order approval page
     if (pathname.indexOf('order-approval') > -1) {
