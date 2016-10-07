@@ -312,12 +312,11 @@ $(document).ready(function(){
     	var date = new Date();
 		date.setDate(date.getDate() + 14);
 		var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
-    	var dateEntered = new Date($('#ponumber').val());
 
     	var dateYear = $('#ponumber').val().slice(0,4);
     	var dateMonth = $('#ponumber').val().slice(5,7);
     	var dateDay = $('#ponumber').val().slice(8,10);
-    	dateEntered = new Date(dateMonth + '/' + dateDay + '/' +  dateYear);
+    	var dateEntered = new Date(dateMonth + '/' + dateDay + '/' +  dateYear);
     	var diff = new Date(twoWeekAgo - dateEntered);
 
 
