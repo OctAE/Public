@@ -383,7 +383,7 @@ $(document).ready(function(){
 	$( "#footContent" ).wrapInner( "<div id='innerFooter'></div>");
 
 	//Add Video Tutorial link to footer
-    $('#footContent p').append('<span> | </span><a href="https://youtu.be/7XeM3q4bsCU" target="_blank">Video Tutorial</a>');
+    //$('#footContent p').append('<span> | </span><a href="https://youtu.be/7XeM3q4bsCU" target="_blank">Video Tutorial</a>');
 
 
 	    //Add Octink logo to footer
