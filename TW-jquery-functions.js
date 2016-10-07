@@ -313,7 +313,11 @@ $(document).ready(function(){
 		date.setDate(date.getDate() + 14);
 		var twoWeekAgo = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
     	var dateEntered = new Date($('#ponumber').val());
-    	dateEntered = new Date((dateEntered.getMonth() + 1) + '/' + dateEntered.getDate() + '/' +  dateEntered.getFullYear());
+
+    	var dateYear = $('#ponumber').val().slice(0,4);
+    	var dateMonth = $('#ponumber').val().slice(5,7);
+    	var dateDay = $('#ponumber').val().slice(8,10);
+    	dateEntered = new Date((dateMonth + '/' + dateDay + '/' +  dateYear);
     	var diff = new Date(twoWeekAgo - dateEntered);
 
 
