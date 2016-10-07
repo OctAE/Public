@@ -308,7 +308,7 @@ $(document).ready(function(){
     //Change "ponumber" type to date
     $('#ponumber').prop('type', 'date');
 
-    $('#PO_ADD_TEXT').click(function(){
+    /*$('#PO_ADD_TEXT').click(function(){
     	var date = new Date();
 		date.setDate(date.getDate() + 14);
 		var twoWeeks = new Date((date.getMonth() + 1) + '/' + date.getDate() + '/' +  date.getFullYear());
@@ -320,13 +320,11 @@ $(document).ready(function(){
     	var diff = twoWeeks - dateEntered;
     	var days = diff / 1000 / 60 / 60 / 24;
 
-
-
     	if(days < 14) {
     		alert('Your prefered install date cannot be less than two weeks from today');
     		return;
     	}
-    })
+    })*/
 
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
     $('a:contains(CLICK HERE TO CONTINUE SHOPPING)').parent().addClass('continueShopping');
