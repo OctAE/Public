@@ -356,6 +356,7 @@ $(document).ready(function(){
   			webOrderNumber = webOrderNumber.match(/\d+/);
  			$('#filemakerOrderHistory').append('<tr><td><a href="http://server.octink.com/taylorwimpey/index.php?weborder=' + webOrderNumber + '" target="_blank">Web Order Number: ' + webOrderNumber + '</a></td></tr>');
 		});
+		$('#filemakerOrderHistory').parent().attr('style', '');
 	}
 
 
