@@ -348,7 +348,8 @@ $(document).ready(function(){
    // }
 
    //Order History Page
-   if((pathname.indexOf('order-history') > -1) || (pathname.indexOf('order_login_srch_nmdet')) {
+   if((pathname.indexOf('order-history') > -1) || (pathname.indexOf('order_login_srch_nmdet'))) {
+   		$('p.contains("Order History")').html('Order History - this page is in construction');
    		$('#orderHistoryTable').hide().after('<table id="filemakerOrderHistory"></table>');
 		$('strong:contains("Invoice No.")').each(function( index ) {
   			var webOrderNumber = $(this).text();
