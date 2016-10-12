@@ -350,11 +350,11 @@ $(document).ready(function(){
    //Order History Page
    if((pathname.indexOf('order-history') > -1) || (pathname.indexOf('order_login_srch_nmdet'))) {
    		$('p:contains("Order History")').html('Order History - page under construction');
-   		$('#orderHistoryTable').hide().after('<table id="filemakerOrderHistory"></table>');
+   		$('#orderHistoryTable').hide().after('<table width="100%" id="filemakerOrderHistory"></table>');
 		$('strong:contains("Invoice No.")').each(function( index ) {
   			var webOrderNumber = $(this).text();
   			webOrderNumber = webOrderNumber.match(/\d+/);
- 			$('#filemakerOrderHistory').append('<tr><td><a class="filemakerWebOrderLink" href="http://server.octink.com/taylorwimpey/index.php?weborder=' + webOrderNumber + '" target="_blank">Web Order Number: <span style="font-weight: bold">' + webOrderNumber + '</span></a></td></tr>');
+ 			$('#filemakerOrderHistory').append('<tr><td><a class="filemakerWebOrderLink" href="http://server.octink.com/taylorwimpey/index.php?weborder=' + webOrderNumber + '" target="_blank">Web Order Number: <span style="font-weight: bold; color: #5b8ab5">' + webOrderNumber + '</span></a></td></tr>');
 		});
 		$('#filemakerOrderHistory').parent().attr('style', '');
 	}

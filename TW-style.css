@@ -737,7 +737,21 @@ tr.displayboxbody {
 
 /* ========= ORDER HISTORY PAGE =========  */
 
+#filemakerOrderHistory td {
+  padding: 30px;
+}
 
+#filemakerOrderHistory tr:nth-child(odd) {
+  background-color: #F5F5F5;
+}
+
+#filemakerOrderHistory tr:nth-child(even) {
+  background-color: #F1F1F1;
+}
+
+.filemakerWebOrderLink {
+  font-size:16px;
+}
 
 /* ================================ FOOTER =================================  */
 
