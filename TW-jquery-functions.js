@@ -347,6 +347,16 @@ $(document).ready(function(){
 
    // }
 
+   //Order History Page
+   if((pathname.indexOf('order-history') > -1) || (pathname.indexOf('order_login_srch_nmdet')) {
+   		$('#orderHistoryTable').hide().after('<table id="filemakerOrderHistory"></table>');
+		$('strong:contains("Invoice No.")').each(function( index ) {
+  			var webOrderNumber = $(this).text();
+  			webOrderNumber = webOrderNumber.match(/\d+/);
+ 			$('#filemakerOrderHistory').append('<tr><td><a href="http://server.octink.com/taylorwimpey/index.php?weborder=' + webOrderNumber + '" target="_blank">Web Order Number: ' + webOrderNumber + '</a></td></tr>');
+		});
+	}
+
 
 	//Change look of productGridTable      
 	$("table#productGridTable").attr({cellspacing:"8"}).removeAttr('style');
