@@ -209,7 +209,7 @@ $(document).ready(function(){
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://googledrive.com/host/0BwH8qt4hNhT5S2lkZmFOUnpPTVU/' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://cdn.rawgit.com/OctAE/Public/master/Bluu%20Styling/footerOctink.png' alt='Octink'></a>");
 
 
     //After "Add to Order" go to Basket page as normal, but add text "Product has been added to basket, return to category..."
