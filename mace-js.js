@@ -94,7 +94,7 @@ $(document).ready(function(){
 
    //add link to catologue
    if (pathname.indexOf('index') < 0) {
-	         $('#footContent p').append('<span> | </span><a href="https://googledrive.com/host/0BwH8qt4hNhT5cXpRZDFOYnVwVUU" target="_blank">Mace Catalogue</a>');
+	         $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/MACE%20Catalogue.pdf" target="_blank">Mace Catalogue</a>');
 	          }
 		
 
