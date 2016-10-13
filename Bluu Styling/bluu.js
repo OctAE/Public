@@ -312,7 +312,7 @@ $(document).ready(function(){
 	$('strong:contains(Your data will not be shared with any 3rd parties other than Protx for payment processing.)').hide();
 
 	 //Add PDF Cataloque link to footer
-    $('#footContent p').append('<span> | </span><a href="https://googledrive.com/host/0BwH8qt4hNhT5WmxlZGVEcVgxdEk/" target="_blank">PDF Cataloque</a>');
+    $('#footContent p').append('<span> | </span><a href="https://rawgit.com/OctAE/Public/master/Bluu%20Styling/Bluu%20Site%20Signage%20v1.pdf" target="_blank">PDF Cataloque</a>');
 
 	$('#footContent p a:nth-of-type(4)').attr({ href:"http://octink.com/dev/wp-content/uploads/2014/04/Octink_Standard-terms-of-business_April-2014.pdf", target:"nw"});
 
