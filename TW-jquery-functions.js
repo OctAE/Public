@@ -470,7 +470,7 @@ $(document).ready(function(){
      //Change text of message on Order complete page
 
     if (!(pathname.indexOf('order-approval') > -1)) { 
-    	$('.invoiceback p:nth-of-type(3)').html('<p>Thank you for submitting your order request and provisional installation date.</p><p>You will shortly receive an email asking you to supply your technical drawings in order for us to progress the floor plans and confirm the installation date.</p><p>If you have any questions in the meantime please do not hesitate to contact a member of your dedicated Taylor Wimpey Team on 020 823 26829.</p>').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
+    	$('.invoiceback p:nth-of-type(3)').html('Thank you for submitting your order request and provisional installation date.&nbsp;You will shortly receive an email asking you to supply your technical drawings in order for us to progress the floor plans and confirm the installation date.&nbsp;If you have any questions in the meantime please do not hesitate to contact a member of your dedicated Taylor Wimpey Team on 020 823 26829.').after('<p>visit <a href="http://www.octink.com">octink.com</a> to find out more about your supplier</p>'); 
 	}
 
 
