@@ -546,8 +546,10 @@ $( "img" ).hover(
     switch (productCode) {
 	case "M-224":
     iconLocation = M224;
+    break;
     case "M-FORS":
     iconLocation = MFORS;
+    break;
     case "M-SFSN-001":
     iconLocation = MSFSN01;
     break;
