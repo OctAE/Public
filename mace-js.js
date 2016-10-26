@@ -539,6 +539,8 @@ $( "img" ).hover(
 	var M132 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789753.2c013812-2524-4f91-b59a-2fbd54973042.jpeg";
 	var M486 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789766.2b9f16b2-1afa-4bfb-9ad9-77a5c864af77.jpeg";
 	var M495 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789769.413a56d2-2187-4c88-8be8-fed3c3a2da3b.jpeg"
+	var M224 = "http://img.netprintmanager.com/red2gouk/i/695/6834/843456.42d1aba4-9478-4518-9842-2345f3f76ae8.jpeg"
+	var MFORS = "http://img.netprintmanager.com/red2gouk/i/695/6834/843462.cf85adf5-fa19-45c5-ad5d-c95f2fa59bd3.jpeg"
 
 
 
@@ -547,7 +549,11 @@ $( "img" ).hover(
 
 
     switch (productCode) {
-case "M-SFSN-001":
+	case "M-224":
+    iconLocation = M224;
+    case "M-FORS":
+    iconLocation = MFORS;
+    case "M-SFSN-001":
     iconLocation = MSFSN01;
     break;
     case "M-DAB001":
