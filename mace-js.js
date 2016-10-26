@@ -543,11 +543,6 @@ $( "img" ).hover(
 	var MFORS = "http://img.netprintmanager.com/red2gouk/i/695/6834/843462.cf85adf5-fa19-45c5-ad5d-c95f2fa59bd3.jpeg"
 
 
-
-
-    
-
-
     switch (productCode) {
 	case "M-224":
     iconLocation = M224;
