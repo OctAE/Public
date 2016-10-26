@@ -538,9 +538,9 @@ $( "img" ).hover(
 	var M131 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789751.78de7050-7523-4af4-883c-455018d64c5d.jpeg";
 	var M132 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789753.2c013812-2524-4f91-b59a-2fbd54973042.jpeg";
 	var M486 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789766.2b9f16b2-1afa-4bfb-9ad9-77a5c864af77.jpeg";
-	var M495 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789769.413a56d2-2187-4c88-8be8-fed3c3a2da3b.jpeg"
-	var M224 = "http://img.netprintmanager.com/red2gouk/i/695/6834/843502.0b2fb01d-8634-44a8-8b35-75b1e3159a89.jpeg"
-	var MFORS = "http://img.netprintmanager.com/red2gouk/i/695/6834/843462.cf85adf5-fa19-45c5-ad5d-c95f2fa59bd3.jpeg"
+	var M495 = "http://img.netprintmanager.com/red2gouk/i/695/6834/789769.413a56d2-2187-4c88-8be8-fed3c3a2da3b.jpeg";
+	var M224 = "http://img.netprintmanager.com/red2gouk/i/695/6834/843502.0b2fb01d-8634-44a8-8b35-75b1e3159a89.jpeg";
+	var MFORS = "http://img.netprintmanager.com/red2gouk/i/695/6834/843462.cf85adf5-fa19-45c5-ad5d-c95f2fa59bd3.jpeg";
 
 
     switch (productCode) {
