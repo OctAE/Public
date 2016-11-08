@@ -1,0 +1,944 @@
+
+/* ============================== MAIN WRAPPERS ============================== */
+.centrealign_split {
+	padding: 0 20px;
+}
+  body {
+  background-color: #F5F5F5;
+  } 
+
+
+.bgmed {
+    background-color: #00aacd;
+}
+
+  
+
+/* =========================== HEADER AND NAVIGATION ========================= */
+
+.bannerLogo {
+	background-color: #00aacd;
+	padding: 30px 20px 40px 0px;
+}
+
+ul#navivert {
+  background-color: #00aacd;
+  text-align: right;
+}
+
+
+ul#navivert li a {
+  border-right: none;
+  background-color: #00aacd;
+  border-bottom: 5px solid #00aacd;
+  box-sizing: content-box;
+}
+
+ul#navivert li a:hover {
+  background-color: #00aacd;
+  border-bottom: 5px solid #cccccc;
+}
+
+#bannerBehind {
+	position:absolute;
+    left:0;
+    right:0;
+    height:183px;
+    background:#00aacd;
+    z-index:-1;
+}
+
+div#consolenormal {
+  margin: 25px auto 20px auto !important;
+}
+
+#searchcell input {
+  padding: 3px;
+  margin-top: -3px;
+  width: 140px;
+  border: 1px inset #E2E2E2;
+  box-sizing: content-box;
+}
+
+#searchcell input:focus {
+  outline: 0px;
+}
+
+.sage {
+  border: 0px;
+  margin: 0;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5VVhjOUJhTS1CcmM/) 130px 3px no-repeat;
+  background-color: white;
+}
+
+.sage:focus {
+  background: none;
+  background-color: white;
+}
+
+
+/* Navigation links are also managed by javascript code */
+
+#projectscell {
+  display: none;
+}
+
+
+/* Drop down Menu */
+
+#navivert li:nth-of-type(2) a {
+  margin-right: 570px;
+}
+
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+ul#navivert li:nth-of-type(5) > a:hover {
+  border-bottom: 0px;
+}
+
+#liDropDown > a {
+  line-height: 22px
+}
+
+#liDropDown {
+  position:relative;
+}
+
+#headzup {
+  margin-top: -11px;
+}
+
+#headzupsock li:hover #ulDropDown {
+    z-index:2;
+    opacity:1;
+}
+
+#headzupsock a {
+    transition:all linear 0.15s;
+}
+ 
+ 
+#ulDropDown {
+    position:absolute;
+    top:25px;
+    right: 0px;
+    z-index:-1;
+    opacity:0;
+    width: 200px;
+}
+ 
+#ulDropDown li {
+    display:block !important;
+    font-size:11px;
+    width: 150px;
+    float:right;
+    background: none !important;
+}
+
+ul#navivert li #ulDropDown li a {
+  width: 150px;
+  padding-top: 10px;
+}
+
+
+#ulDropDown li a span {
+  background-color: #00aacd;
+  display:block !important;
+}
+
+
+
+/* ========================== STEPS ============================ */
+
+
+.progressSteps {
+  overflow: hidden;
+  margin-bottom: 20px;
+  width: 1000px !important;
+}
+
+.stepsPlain, .stepsHighlight {
+  background-color: #DCDCDC;
+  position:relative;
+  width: 250px;
+  margin: 0;
+  border-radius: 3px;
+}
+
+
+.stepsPlain p, .stepsHighlight p {
+padding:5px 45px;
+}
+
+.stepsPlain:after {
+  content: " "; 
+  display: block; 
+  width: 20px; 
+  height: 42px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5ZExoU2x0WXVRUkU/) no-repeat;
+  position: absolute;
+  top:0px;
+  right:-15px;
+  z-index: 1; 
+}
+
+
+
+.stepsHighlight {
+  background-color: #00aacd;
+}
+
+.stepsHighlight:after {
+  content: " "; 
+  display: block; 
+  width: 20px; 
+  height: 42px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5WkxQMXRHaHJpMTg/) no-repeat;
+  position: absolute;
+  top:0px;
+  right:-15px;
+  z-index: 1; 
+}
+
+.stepsHighlight p {
+ color: white ;
+}
+
+.noAfter:after {
+content: none;
+}
+
+/* ================================ EDIT MY DETAILS ========================= */
+
+#customerloginas, .blockline {
+  display:none;
+}
+
+
+
+/* ================================ CATALOGUE ========================= */
+
+.leftalign {
+  margin-top: 10px;
+}
+
+.leftalign table:nth-child(1) select {
+  font-size: 8pt;
+  background-color: #338ECF;
+  color: white;
+  border: none;
+  height: 20px;
+}
+
+.leftalign table:nth-child(1) tbody tr td:nth-child(2) {
+  padding-right: 15px;
+}
+
+.sorListdiv table {
+  background: #F5F5F5 !important;
+}
+
+#productGridTable {
+  margin-bottom: 30px;
+}
+
+#productGridTable td {
+  background: #EDEDED;
+  border: 0px !important;
+  padding: 10px 0px 7px 0px;
+  box-shadow: 2px 2px 0px #DFDFDF;
+}
+
+#categoryGridTable td {
+  border: none !important;
+}
+
+td.categoryGridTD span {display: none}
+
+
+/* ================================ INDIVIDUAL PRODUCT ========================= */
+/* !!!!!!!!!!!!!!!!!!! WARNING! This removes Pages and Notes boxes !!!!!!!!!!!!!!!! */
+
+#rightcol {
+  background-color: #F5F5F5 !important;
+}
+
+td.editPrintBkCol form#edit {
+  background-color: #DCDCDC;
+  width: 100.5%;
+  display: block;
+  float: right;
+  border-bottom: 20px solid #DCDCDC;
+  border-top: 40px solid black;
+  margin-top: 15px !important;
+  margin-bottom: 25px !important;
+  padding-top: 10px !important;
+  position: relative;
+}
+
+.epconfigimageinner {
+  background-color: #DCDCDC !important;
+  width: 100.5%;
+  display: block;
+  float: right;
+  border-bottom: 20px solid #DCDCDC;
+  border-top: 40px solid black;
+  margin-bottom: 25px !important;
+  padding-top: 10px !important;
+  position: relative;
+}
+
+td.editPrintBkCol form#edit:before {
+  content:"Customise your text";
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  top: -32px;
+  left: 8px
+}
+
+.epconfigimageinner:before {
+  content:"Customise your image";
+  position: absolute;
+  color: white;
+  font-weight: bold;
+  font-size: 21px;
+  top: -32px;
+  left: 8px
+}
+
+
+table.epconfig  tbody tr:nth-of-type(2) td.editPrintBkCol {
+  display:none;
+}
+
+.substrongfour {
+  position: relative;
+  top: 12px;
+}
+
+.brandboxshell:nth-of-type(4) {
+  display:none;
+}
+
+#epnotes {
+  background-color: #F5F5F5 !important;
+}
+
+#productionNotes {
+  padding-top: 20px;
+}
+
+#addnotes div {
+  padding-left: 7px !important;
+}
+
+#addnotes div div {
+  padding: 10px 0 0 0 !important;
+  margin: 5px -2px !important;
+}
+
+#addnotes div textarea {
+  width: 475px !important;
+}
+
+
+.editProductWrappers {
+  background-color: #F5F5F5 !important;
+}
+
+.editPrintBkCol, .brandboxshell {
+  border: 2px solid #F5F5F5;
+  background: #F5F5F5;
+}
+
+.editProductWrappers #rightcol div:nth-of-type(3) {
+  display:none;
+}
+
+#eppreview {
+  background-color: #f5f5f5;
+  clear: both;
+}
+
+#targetImage {
+  border: 0px !important; 
+}
+
+.frameitem {
+  background: #fff;
+  border: 0px;
+  box-shadow: 3px 3px 10px #ccc;
+}
+
+#prod_title {
+  margin-left: -5px;
+}
+
+a#addToKit span {
+  font-size: 14px;
+}
+
+/*
+#kitItemsTable .alphabutton #Span1 {
+  display: none;
+}
+*/
+
+#productKey {
+  margin: 20px 0px 0px -15px;
+}
+
+
+.displayboxheading {
+  position:relative;
+}
+
+.displayboxheading span:nth-of-type(2) {
+  display:block;
+  position:absolute;
+  color: red;
+  top: 55px;
+  left: 30px;
+  color:#AE3333;
+}
+
+.displayboxheading span:nth-of-type(2):before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  right: 2px;
+  height: 26px;
+  width: 26px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+}
+
+
+#viewNextPage span {
+  font-size: 14px;
+  }
+
+.epconfigimageinner .strongfour {
+  display: none;
+}
+
+.editPrintBkCol .epconfig div:nth-of-type(1) {
+    margin: 0px 0px 15px -5px !important;
+}
+
+
+/* !!!!!!!!!!!!!!!!!!! Product edit v2 !!!!!!!!!!!!!!!! */
+
+
+.panel {
+  border: 0px;
+  box-shadow: none;
+}
+
+.panel-heading-rtt {
+  border-bottom: 0px;
+}
+
+#productContainer > #productLayout {
+  border: 0px;
+}
+
+#panelEdit {
+  padding: 0.7em 1em 1em 0.7em;
+}
+
+
+/* ========================================== APPROVAL PAGE ========================================  */
+
+#edit .centrealign, #edit .centrealign div {
+   border: 0px;
+   background-color: #f5f5f5 !important;
+}
+
+/* ========================================== BASKET ========================================  */
+
+
+
+#STOP_PONUMBER_TEXT {
+  position: relative;
+  top: -6px;
+  left:-420px;
+}
+
+strong#STOP_PONUMBER_TEXT {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+
+strong#STOP_PONUMBER_TEXT:before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  right: 2px;
+  height: 26px;
+  width: 26px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+  }
+
+  #STOP_PONUMBER {
+  text-align: center;
+  margin-left: -350px;
+  margin-top: -10px;
+  }
+
+  /* notes
+  .small11px {
+    display: none;
+  }
+  */
+
+  #formBasket table td {
+   background-color: #f5f5f5; 
+  }
+
+   #formBasket table tr:nth-of-type(1) th,  #formBasket table tr#orderTotal td {
+   background-color: #0A316A; 
+  }
+
+  .orderarray {
+  background: none;
+  border: 0px;
+  }
+
+  #poInput input {
+  width: 180px;
+  height: 18px;
+  margin-top: -3px;
+  }
+
+  #poInput {
+  padding: 10px 0px !important;
+  }
+
+
+/*  td.cell_signoff div {
+    display: none;
+  }
+ */ 
+
+    #formBasket table tr:nth-of-type(1) th,  #formBasket table tr#orderTotal td {
+   background-color: #00aacd;
+  }
+
+/* ===================================== CHECKOUT PAGE ===================================== */
+
+.checkoutTable .bgmed{
+  background-color: #00aacd;
+  color: #FFFFFF;
+  font: 11px arial,helvetica,sans-serif;
+  font-weight: normal;
+  padding: 4px;
+}
+
+#billingAddress {
+  display: none;
+}
+
+#customerName {
+  display: none;
+}
+
+#paymentMessage, #testTransaction {
+  display: none;
+}
+
+/*
+#tandccheckbox {
+  display: none;
+}
+*/
+
+#tandccheckbox {
+  height: 40px;
+  text-align:right;
+}
+
+#orderNumber td.notBgmed, #customerName td.notBgmed, #deliveryAddress td.notBgmed, #phoneNumber td.notBgmed, #emailAddress td.notBgmed, #poNumber td.notBgmed {
+  background-color: #F5F5F5;
+  padding: 5px;
+}
+
+#orderNumber td.bgmed span, #orderSubTotal td:nth-of-type(2), #orderTax td:nth-of-type(2), #orderDelivery td:nth-of-type(2), #orderTotal td:nth-of-type(2) {
+  font-weight: bold;
+}
+
+
+#deliveryAddress td.notBgmed {
+position: relative;
+}
+
+#DeliveryWarningMsg {
+  color: #AE3333;
+  font-size: 12px;
+  line-height: 15px;
+  display: inline-block;
+  position: absolute;
+  width: 440px;
+  left:250px;
+  top:40px;
+}
+
+#DeliveryWarningMsg:before {
+ content: "";
+  display: inline-block;
+  position: absolute;
+  top: 14px;
+  right: 445px;
+  height: 26px;
+  width: 26px;
+  background: url(https://googledrive.com/host/0BwH8qt4hNhT5clZZR0ctZVNkV3M/) top left no-repeat;
+}
+
+#CustomPaymentInfo #orderSubTotal td:nth-of-type(2), #CustomPaymentInfo #orderTax td:nth-of-type(2), #CustomPaymentInfo #orderDelivery td:nth-of-type(2),#CustomPaymentInfo #orderTotal td:nth-of-type(2) {
+  padding: 0px;
+  background-color:#F5F5F5;
+}
+
+
+.checkoutPrices {
+  padding-right: 4px;
+  width: 100px;
+  float:right;
+  background-color: #00aacd;
+  color: #FFFFFF;
+}
+
+.checkoutPrices p {
+  line-height: 4px
+}
+
+#CustomPaymentInfo #orderSubTotal td:nth-of-type(3), #CustomPaymentInfo #orderTax td:nth-of-type(3), #CustomPaymentInfo #orderDelivery td:nth-of-type(3), #CustomPaymentInfo #orderTotal td:nth-of-type(3) {
+  background-color: #F5F5F5;
+  color: #000000;
+}
+
+td.displayboxheading.notBgmed {
+  display: none;
+}
+
+tr.displayboxbody {
+  background-color: #F5F5F5;
+}
+
+
+
+/* ========= ORDER COMPLETE PAGE =========  */
+
+
+
+.invoiceback {
+  height: 270px;
+  margin: -30px auto 0px;
+  background-image: none;
+  background-color: #DCDCDC 
+}
+
+.invoiceback h2 {
+  font-size: 30px;
+  font-family: verdana;
+  padding-top: 20px;
+  margin-bottom: -2px;
+  text-align: center;
+}
+
+.invoiceback p {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.invoiceback p:nth-of-type(1){
+  padding: 0px !important;
+}
+
+
+.invoiceback p:nth-of-type(2){
+  padding: 12px !important;
+}
+
+.invoiceback p:nth-of-type(3){
+  padding-top: 8px !important;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.invoiceback p:nth-of-type(4){
+  padding-top: 4px !important;
+  font-size: 12px;
+}
+
+#afterCompleteMsg {
+  
+}
+
+
+
+
+/* ================================ FOOTER =================================  */
+
+/* Make sticky footer  */
+
+html, body {
+  height: 100%;
+}
+.centrealign_split {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -70px; 
+}
+.centrealign_split:after {
+  content: "";
+  display: block;
+}
+.footContent, .centrealign_split:after {
+  height: 70px; 
+}
+.footContent {
+  background: #00aacd;
+}
+
+
+/* Footer Styling  */
+
+#copyContent {
+	display:none;
+}
+
+#footContent {
+	position:absolute;
+    left:0;
+    right:0;
+    height:70px;
+    background:#00aacd;
+
+}
+
+#innerFooter {
+	width: 1000px;
+	margin: 20px auto;
+}
+
+
+
+.botlinks {
+  text-align: left;
+}
+
+.botlinks p span {
+  color: #33A3B2;
+  	color: white;
+}
+
+
+.botlinks  a {
+  margin-right: 10px;
+  margin-left: 10px;
+  	color: white;
+}
+
+#footer-image {
+	float:right;
+	margin-top: -25px;
+}
+
+a#footer-image {
+  margin-right: 0px;
+}
+
+
+/* ================================== BUTTONS ============================================  */
+
+p.continueShopping {
+  margin: 40px 0px 40px 0px;
+}
+
+p.continueShopping a {
+  color: #ffffff;
+  font-size: 14px;
+  text-transform: lowercase;
+  background: #338ECF;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+ }
+
+p.continueShopping.underSteps {
+  text-align: left;
+  margin: 10px 0px 40px 0px;
+}
+
+p.continueShopping a:before { 
+content: "< ";
+color:white;
+}
+
+p.continueShopping a:hover, p.continueShopping a:hover::before  {
+  text-decoration: none;
+  color: black;
+}
+
+#continueButton {
+height: 0px;
+}
+
+#continueButtonEnv {
+margin-left: 9px !important;
+}
+
+#continueButtonEnv #continueButton {
+  border: 0px;
+}
+
+#ORDER_CONTINUE, #STOP_COURIER_ADDRESS, #STOP_COURIER, #STOP_ADDRESS, #STOP_SIGNOFF, #STOP_PONUMBER, #STOP_PONUMBER_TEXT, #STOP_NSCONTACT, #STOP_NSCONTACT_TEXT, #STOP_OTHER {
+  background-color: #f5f5f5;
+  border: 0px;
+  padding-right: 0px !important;
+  text-align: right !important;
+  color: #AE3333;
+}
+
+.betabutton {
+    margin: 10px 0px 30px -15px;
+}
+
+.visible .betabutton {
+    margin: 10px 0px 0px -15px;
+}
+
+
+.gammabutton a, .betabutton a {
+margin-right: 0px !important;
+}
+
+.betabutton a {
+background: none;
+}
+
+.gammabutton a span, .betabutton a span, #STOP_SIGNOFF a, #STOP_ADDRESS a {
+  background: none;
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.gammabutton a:hover span, .betabutton a:hover span, #STOP_SIGNOFF a:hover, #STOP_ADDRESS a:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+ }
+
+
+
+#STOP_SIGNOFF a, #STOP_ADDRESS a {
+  font-size: 16px;
+}
+
+
+
+.gammabutton a {
+  background: none;
+}
+
+.cell_signoff .betabutton a span, #poInput .betabutton a span {
+  background: #3498db;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+  margin: 0px 0px 30px 0px;
+}
+
+#poInput .betabutton {
+  margin-top: 0px
+}
+
+.cell_signoff .betabutton a:hover span, #poInput .betabutton a:hover span {
+  background: #3498db;
+  color: black;
+  font-size: 12px;
+  padding: 5px 24px 5px 24px;
+  text-decoration: none;
+}
+
+
+
+#deliveryAddress td.notBgmed .alphabutton a span, #deliveryAddress td.notBgmed .alphabutton a  {
+  background: none;
+  color: #338ECF;
+  padding: 0px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+#deliveryAddress td.notBgmed .alphabutton a:hover span {
+  color: black;
+}
+
+#deliveryAddress td.notBgmed .alphabutton {
+  margin-top: 10px
+}
+
+#CustomPaymentInfo .betabutton {
+  margin: 10px -8px 30px -15px;
+}
+
+.alphabutton a#btnProdSave {
+  margin-left: 11px;
+}
+
+.alphabutton a#btnProdSave span, .alphabutton a#btnProdReset span {
+  padding: 3px 14px 9px 0px;
+}
+
+#startFromScratch {
+  display: inline-block;
+}
+
+.alphabutton.clickToEnlarge {
+  margin-bottom: -16px !important;
+  margin-right: 83px !important;
+}
+
+.goBackToCat {
+  padding: 30px;
+  text-align: center !important;
+}
+
+.goBackToCat a {
+  font-size: 20px !important;
+}
+
+/*
+#kitItemsTable span.alphabutton {
+  display:none;
+}
+*/
+
+.betabutton.nextItem {
+
+  margin:60px 0px 30px -15px;
+  
+ }
+
