@@ -209,7 +209,7 @@ $(document).ready(function(){
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://googledrive.com/host/0BwH8qt4hNhT5S2lkZmFOUnpPTVU/' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://cdn.rawgit.com/OctAE/Public/master/Lendlease%20Styling/footerOctink.png' alt='Octink'></a>");
 
 
     //After "Add to Order" go to Basket page as normal, but add text "Product has been added to basket, return to category..."
@@ -252,7 +252,7 @@ $(document).ready(function(){
     $('h2#notesProductionheader').html('Add store reference/notes');
 
     //Replace bin icon on "Customised your image" on Product individual page - customized items
-    $('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
+    $('#editImage .img_trash img').attr({src:"https://cdn.rawgit.com/OctAE/Public/master/Lendlease%20Styling/bin.png"});
 
     //Add "Thank you" add the begining of message on Order complete page
     $('.invoiceback p:nth-of-type(1)').before('<h2>Thank you</h2>'); 
