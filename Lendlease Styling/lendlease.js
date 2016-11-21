@@ -287,6 +287,29 @@ $(document).ready(function(){
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
+		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/lendlease/products'>Mace</a>"
+		       	var pathArray = decodeURIComponent(pathname).split("/");
+		        var pathBefore = "";
+		    		for (i = 2; i < pathArray.length-1; i++) {
+		   				 pathBefore = pathBefore + "/" + pathArray[i]; 
+		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/lendlease/products" + pathBefore + "'>" + pathArray[i] + "</a>";
+					}
+		      breadcrumbHtml = breadcrumbHtml + " > product selection</strong></div>";
+		      //breadcrumbHtml = $("</div>").html(breadcrumbHtml).text();
+		      
+		      if(pathname.indexOf('product-edit') > -1) {
+		      	$('.progressSteps').after(decodeEntities(breadcrumbHtml));
+		      	
+		      }	else {
+		      	$('.progressSteps').next().after(breadcrumbHtml);
+		      }
+		      
+			}
+		}
+    /*if (pathname.indexOf('product-edit') > -1 || pathname.indexOf('kit-edit') > -1 ) {
+
+    	if ($('a#addToKit span:contains(kit)').length == 0) {
+		      
 		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/'>Lendlease</a>"
 		       	var pathArray = pathname.split("/");
 		        var pathBefore = "";
@@ -297,7 +320,8 @@ $(document).ready(function(){
 		      breadcrumbHtml = breadcrumbHtml + " > product selection</strong></div>";
 		      $('.progressSteps').next().after(breadcrumbHtml);
 			}
-		}
+		}*/
+
 
 	//Replace button text "Click to go to kit ......" to "< back to kit overview"
 	$('#addToKit span:contains(go to kit)').html(' < return to items overview ');
