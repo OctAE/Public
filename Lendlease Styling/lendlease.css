@@ -942,3 +942,17 @@ background: none;
   
  }
 
+/* PUP UP PICTURE WINDOWS */
+#popup {
+  position: absolute;
+  border:1px solid black;
+  width: 320px !important;
+  padding:10px;
+  background-color: white;
+
+}
+ 
+#popup img {
+    width: 320px !important;
+    background-color: white;
+} 
