@@ -287,7 +287,7 @@ $(document).ready(function(){
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
-		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/lendlease/products'>Lendlease</a>"
+		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/'>Lendlease</a>"
 		       	var pathArray = pathname.split("/");
 		        var pathBefore = "";
 		    		for (i = 2; i < pathArray.length-1; i++) {
