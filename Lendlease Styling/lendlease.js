@@ -67,6 +67,12 @@ $(document).ready(function(){
 		$('#checkoutButton4').html('Add to Basket');
 	}
 
+	if (pathname.indexOf('order-confirm') > -1) {
+	          $( "#termscheck" ).hide();
+	          $( "#termscheck" ).prop( "checked", true );
+	          $('label[for="termscheck"]').hide();
+	}
+
 
 	//Detach footer and place it at the bottom of centrealign_split
 	var footer = $('#footContent');
