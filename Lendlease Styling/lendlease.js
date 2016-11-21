@@ -61,7 +61,11 @@ $(document).ready(function(){
 
 
 	//Add div before .bannerLogo div {
-	$('.bannerLogo').before('<div id="bannerBehind"></div>'); 
+	$('.bannerLogo').before('<div id="bannerBehind"></div>');
+
+ 	if (pathname.indexOf('editproduct') > -1){
+		$('#checkoutButton4').html('Add to Basket');
+	}
 
 
 	//Detach footer and place it at the bottom of centrealign_split
