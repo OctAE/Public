@@ -67,7 +67,7 @@ $(document).ready(function(){
 		$('#checkoutButton4').html('Add to Basket');
 	}
 
-	if (pathname.indexOf('order-confirm') > -1) {
+	if (pathname.indexOf('order_confirm') > -1) {
 	          $( "#termscheck" ).hide();
 	          $( "#termscheck" ).prop( "checked", true );
 	          $('label[for="termscheck"]').hide();
