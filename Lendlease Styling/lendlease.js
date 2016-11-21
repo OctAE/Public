@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
 	 if (pathname.indexOf('basket') > -1){
-	       $( "#consolenormal" ).after( '<div style="display: block; width: 100%; text-align: center; margin-left: auto; margin-right: auto;"><div class="stepsPlain" style="float: left; "><p>1. Select &nbsp;your Items</p></div><div class="stepsPlain" style="float: left;" ><p>2. Edit </p></div><div class="stepsHighlight" style="float: left;"><p>3. Order summary</p></div><div class="stepsPlain" style="float: left; background-position: 2px 0 !important"><p>4. Confirm order &#38; payment</p></div></div><br style="clear: both" /><p class="underSteps"><a href="http://bluustore.octink.com/bluu/products">CLICK HERE TO CONTINUE SHOPPING</a></p>');
+	       $( "#consolenormal" ).after( '<div style="display: block; width: 100%; text-align: center; margin-left: auto; margin-right: auto;"><div class="stepsPlain" style="float: left; "><p>1. Select &nbsp;your Items</p></div><div class="stepsPlain" style="float: left;" ><p>2. Edit </p></div><div class="stepsHighlight" style="float: left;"><p>3. Order summary</p></div><div class="stepsPlain" style="float: left; background-position: 2px 0 !important"><p>4. Confirm order &#38; payment</p></div></div><br style="clear: both" /><p class="underSteps"><a href="http://lendleasestore.octink.com/">CLICK HERE TO CONTINUE SHOPPING</a></p>');
 	       $("span#ORDER_CONTINUE_TEXT").html('Proceed to checkout'); 
 	 }
 
@@ -112,7 +112,7 @@ $(document).ready(function(){
 	          $(".centrealign_split table tbody tr:nth-of-type(3) td form table tr td:not(.bgmed)").addClass('notBgmed');
 	        }
 
-	if (pathname == "/bluu/confirm-my-details") {
+	if (pathname == "/lendlease/confirm-my-details") {
 	          $( ".stepsHighlight" ).addClass('noAfter');
 	        }
 
@@ -264,7 +264,7 @@ $(document).ready(function(){
 	}
 
     //Add navigation text below order complete message
-    $('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/bluu/products">Open Catalogue</a> to place another order, or <a href="/bluu/logout">Log Out</p>');
+    $('.invoiceback').after('<p id="afterCompleteMsg">Click <a href="/lendlease/products">Open Catalogue</a> to place another order, or <a href="/lendlease/logout">Log Out</p>');
 
     //Add product key on product individual page
     //$('#rightcol').append('<div id="productKey"><img src="https://googledrive.com/host/0BwH8qt4hNhT5TVNqYlRqYnhadlE/"></div>');
@@ -287,12 +287,12 @@ $(document).ready(function(){
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
-		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/bluu/products'>Bluu</a>"
+		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/lendlease/products'>Lendlease</a>"
 		       	var pathArray = pathname.split("/");
 		        var pathBefore = "";
 		    		for (i = 2; i < pathArray.length-1; i++) {
 		   				 pathBefore = pathBefore + "/" + pathArray[i]; 
-		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/bluu/products" + pathBefore + "'>" + pathArray[i] + "</a>";
+		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/lendlease/products" + pathBefore + "'>" + pathArray[i] + "</a>";
 					}
 		      breadcrumbHtml = breadcrumbHtml + " > product selection</strong></div>";
 		      $('.progressSteps').next().after(breadcrumbHtml);
