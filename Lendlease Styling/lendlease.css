@@ -37,6 +37,7 @@ ul#navivert li a {
 ul#navivert li a:hover {
   background-color: #323233;
   border-bottom: 5px solid #cccccc;
+  color: #ffffff;
 }
 
 #bannerBehind {
