@@ -73,7 +73,9 @@ $(document).ready(function(){
 	          $('label[for="termscheck"]').hide();
 	}
 
-
+if (pathname.indexOf('edit_rttplus') > -1) {
+  $('#uploadButtonEdit').before('<a href="#">Site Addresses</a>');
+}
 	//Detach footer and place it at the bottom of centrealign_split
 	var footer = $('#footContent');
 	footer.detach();
