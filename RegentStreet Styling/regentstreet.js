@@ -209,7 +209,7 @@ $(document).ready(function(){
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://googledrive.com/host/0BwH8qt4hNhT5S2lkZmFOUnpPTVU/' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://cdn.rawgit.com/OctAE/Public/master/RegentStreet%20Styling/footerOctink.png' alt='Octink'></a>");
 
 
     //After "Add to Order" go to Basket page as normal, but add text "Product has been added to basket, return to category..."
@@ -252,7 +252,7 @@ $(document).ready(function(){
     $('h2#notesProductionheader').html('Add store reference/notes');
 
     //Replace bin icon on "Customised your image" on Product individual page - customized items
-    $('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
+    $('#editImage .img_trash img').attr({src:"https://cdn.rawgit.com/OctAE/Public/master/RegentStreet%20Styling/bin.png"});
 
     //Add "Thank you" add the begining of message on Order complete page
     $('.invoiceback p:nth-of-type(1)').before('<h2>Thank you</h2>'); 
@@ -312,7 +312,7 @@ $(document).ready(function(){
 	$('strong:contains(Your data will not be shared with any 3rd parties other than Protx for payment processing.)').hide();
 
 	 //Add PDF Cataloque link to footer
-    $('#footContent p').append('<span> | </span><a href="https://googledrive.com/host/0BwH8qt4hNhT5LUdZeDNwTldDRlE/" target="_blank">PDF Cataloque</a>');
+    $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/RegentStreet%20Styling/Regent%20Street%20Site%20Signage%20v2.pdf" target="_blank">PDF Cataloque</a>');
 
 	$('#footContent p a:nth-of-type(4)').attr({ href:"http://octink.com/dev/wp-content/uploads/2014/04/Octink_Standard-terms-of-business_April-2014.pdf", target:"nw"});
 
