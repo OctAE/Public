@@ -74,7 +74,7 @@ $(document).ready(function(){
 	}
 
 if (pathname.indexOf('edit_rttplus') > -1) {
-  $('#uploadButtonEdit').before('<span style="float: left;"><a href="#">Site Addresses</a></span>');
+  $('#uploadButtonEdit').before('<span style="float: left;"><a href="#">Select Site Addresses</a></span>');
 }
 	//Detach footer and place it at the bottom of centrealign_split
 	var footer = $('#footContent');
