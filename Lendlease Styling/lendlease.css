@@ -22,20 +22,20 @@
 }
 
 ul#navivert {
-  background-color: #00aacd;
+  background-color: #323233;
   text-align: right;
 }
 
 
 ul#navivert li a {
   border-right: none;
-  background-color: #00aacd;
-  border-bottom: 5px solid #00aacd;
+  background-color: #323233;
+  border-bottom: 5px solid #323233;
   box-sizing: content-box;
 }
 
 ul#navivert li a:hover {
-  background-color: #00aacd;
+  background-color: #323233;
   border-bottom: 5px solid #cccccc;
 }
 
