@@ -957,3 +957,15 @@ background: none;
     width: 320px !important;
     background-color: white;
 } 
+
+[name="sortListingTop"] {
+background-color: #006ED2;
+}
+
+[name="idListing"] {
+background-color: #006ED2;
+}
+
+[name="listTitle"] {
+background-color: #006ED2;
+}
