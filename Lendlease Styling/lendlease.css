@@ -963,9 +963,9 @@ background-color: #006ED2;
 }
 
 [name="idListing"] {
-background-color: #006ED2;
+background-color: #006ED2 !important;
 }
 
 [name="listTitle"] {
-background-color: #006ED2;
+background-color: #006ED2 !important;
 }
