@@ -382,7 +382,6 @@ $(document).ready(function(){
 
 
 //This overrite native RedTie function. This makes page reload after alert "Product added to order successfully" alert
-/*
 function addProduct_Response() {
   var httpStatus = 0;
   var feedbackMessage = "";
@@ -436,4 +435,4 @@ function addProduct_Response() {
 window.location.reload();
 } //This overrite native RedTie function. This makes page reload after alert "Product added to order successfully" alert
 
-*/
+
