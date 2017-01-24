@@ -44,7 +44,7 @@ $(document).ready(function(){
 	$('span#navButtSaved').parent().parent().hide();
 
 	//Change Navigation link "Open Catoloque" to be "Home"
-	$('span#navButtCatelogue').html('Home');
+	$('span#navButtCatelogue').html('Place an order');
 
 	//Add drop down submenu - CCS also created
 	$('ul#navivert').append('<li id="liDropDown"><a href="#">My Account</a></li>');
