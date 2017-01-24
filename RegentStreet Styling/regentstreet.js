@@ -71,7 +71,7 @@ $(document).ready(function(){
 
 	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
 	 if (pathname.indexOf('basket') > -1){
-	       $( "#consolenormal" ).after( '<div style="display: block; width: 100%; text-align: center; margin-left: auto; margin-right: auto;"><div class="stepsPlain" style="float: left; "><p>1. Select &nbsp;your Items</p></div><div class="stepsPlain" style="float: left;" ><p>2. Edit </p></div><div class="stepsHighlight" style="float: left;"><p>3. Order summary</p></div><div class="stepsPlain" style="float: left; background-position: 2px 0 !important"><p>4. Confirm order &#38; payment</p></div></div><br style="clear: both" /><p class="underSteps"><a href="http://regentstreetstore.octink.com/regentstreet/products">CLICK HERE TO CONTINUE SHOPPING</a></p>');
+	       //$( "#consolenormal" ).after( '<div style="display: block; width: 100%; text-align: center; margin-left: auto; margin-right: auto;"><div class="stepsPlain" style="float: left; "><p>1. Select &nbsp;your Items</p></div><div class="stepsPlain" style="float: left;" ><p>2. Edit </p></div><div class="stepsHighlight" style="float: left;"><p>3. Order summary</p></div><div class="stepsPlain" style="float: left; background-position: 2px 0 !important"><p>4. Confirm order &#38; payment</p></div></div><br style="clear: both" /><p class="underSteps"><a href="http://regentstreetstore.octink.com/regentstreet/products">CLICK HERE TO CONTINUE SHOPPING</a></p>');
 	       $("span#ORDER_CONTINUE_TEXT").html('Proceed to checkout'); 
 	 }
 
