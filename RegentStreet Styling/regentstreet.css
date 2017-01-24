@@ -940,3 +940,10 @@ background: none;
   
  }
 
+#balancecell {
+  font-weight: bold;
+}
+
+#basketcell {
+  font-weight: bold;
+}
