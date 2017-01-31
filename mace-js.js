@@ -93,9 +93,9 @@ $(document).ready(function(){
 	          }
 
    //add link to catologue
-   if (pathname.indexOf('index') < 0) {
-	         $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/MACE%20Catalogue.pdf" target="_blank">Mace Catalogue</a>');
-	          }
+   	//if (pathname.indexOf('index') < 0) {
+	//         $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/MACE%20Catalogue.pdf" target="_blank">Mace Catalogue</a>');
+	//          }
 		
 
 	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
