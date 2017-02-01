@@ -2523,7 +2523,7 @@ case "M-309":
 iconLocation =  M309;
 break;
 case "M-310":
-iconLocation =  310M;
+iconLocation =  M310;
 break;
 case "M-312":
 iconLocation =  M312;
