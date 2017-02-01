@@ -2349,7 +2349,7 @@ case "M-296":
 iconLocation =  M296;
 break;
 case "M-297":
-iconLocation =  297M;
+iconLocation =  M297;
 break;
 case "M-298":
 iconLocation =  M298;
