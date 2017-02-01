@@ -254,7 +254,7 @@ $(document).ready(function(){
     //$('h2#notesProductionheader').html('Add store reference/notes');
 
     //Replace bin icon on "Customised your image" on Product individual page - customized items
-    $('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
+    //$('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
 
     //Add "Thank you" add the begining of message on Order complete page
     $('.invoiceback p:nth-of-type(1)').before('<h2>Thank you</h2>'); 
