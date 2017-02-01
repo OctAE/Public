@@ -2763,7 +2763,7 @@ case "M-156":
 iconLocation =  M156;
 break;
 case "M-158":
-iconLocation =  158M;
+iconLocation =  M158;
 break;
 case "M-159":
 iconLocation =  M159;
