@@ -561,9 +561,9 @@ $( "img" ).hover(
 	var MSFSN100a = "http://img.netprintmanager.com/red2gouk/i/695/6834/919693.8e553fde-531e-4546-8973-caae2ccafaf5.jpeg";
 	var MSFSN701 = "http://img.netprintmanager.com/red2gouk/i/695/6834/919694.4ee5106a-1af6-4da4-a075-540761b2b504.jpeg";
 	var MMEWP02 = "http://img.netprintmanager.com/red2gouk/i/695/6834/919695.8741bfa4-f0d3-46a9-b494-9ab8558468ce.jpeg";
-	var MTTMA2 = "";
-	var MTTMYTA2 = "";
-	var MTTMYTA3 = "";
+	var MTTMA2 = "http://img.netprintmanager.com/red2gouk/i/695/6834/925811.890492fa-d6f6-4b08-a7bb-99820a9cef12.jpeg";
+	var MTTMYTA2 = "http://img.netprintmanager.com/red2gouk/i/695/6834/925813.1148b262-e519-472a-945a-b6bb71e3132d.jpeg";
+	var MTTMYTA3 = "http://img.netprintmanager.com/red2gouk/i/695/6834/925816.8a86bef1-75a0-42f4-8be0-7af4c2784dbe.jpeg";
 	var MSFSNVS004p = "http://img.netprintmanager.com/red2gouk/i/695/6834/919700.6e1aaafb-046b-42ab-a0d7-0c8d1bf1993c.jpeg";
 	var MSFSNVS004f = "http://img.netprintmanager.com/red2gouk/i/695/6834/919701.9b8b33db-2ea3-4959-a925-18eea08990c2.jpeg";
 	var MSFSNVS006p = "http://img.netprintmanager.com/red2gouk/i/695/6834/919702.88b18386-dbb5-4f09-b571-5ba1e394727c.jpeg";
@@ -1029,8 +1029,74 @@ $( "img" ).hover(
 	var MCLOCSPopup = "http://img.netprintmanager.com/red2gouk/imgLibTool/118151012_ASRC.jpg";
 	var MCLOCSBanner = "http://img.netprintmanager.com/red2gouk/imgLibTool/326151013_ASRC.jpg";
 
+	var MSFSN007 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925842.5012b388-9515-488d-9a95-6d3631e9582a.jpeg';
+	var MSFSN008 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925844.bbbaec07-5d3b-4b15-afdd-2fc75e0d3911.jpeg';
+	var MSFSN009 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925845.d9795e92-b865-4642-bb36-13bd6dd50916.jpeg';
+	var MDAB001 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925846.f4529e39-c5ec-463d-a96e-bb2cdab2cda1.jpeg';
+	var MHANS01 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925850.5fb3b1aa-48b8-4231-83b1-efd9e4974ef0.jpeg';
+	var MMEWP01 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925851.4e70d22f-292c-4e1a-8a32-fb3ba83c01fb.jpeg';
+	var TooltethersmustbewornA2 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925858.35c192a5-34db-49fc-9e20-9ae3b6c57df4.jpeg';
+	var WhentotetheryourtoolsA3 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925859.5db59e12-e91b-42a7-94f9-da3e880376a7.jpeg';
+	var M494 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925860.227367c1-4b6d-4e94-ad5c-d0dc6ffa4b7c.jpeg';
+	var M592 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925862.df43edb3-5700-4b03-ac09-dba9a04a4ab2.jpeg';
+	var M591 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925865.dceb6b33-098e-4b7f-9e0a-9cbfacfc28e4.jpeg';
+	var M390 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925867.55b8f412-bb92-47a1-8727-7d21d2f185fa.jpeg';
+	var M091 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925869.b63507ff-dd8b-4916-a5b0-d8dee35db7ac.jpeg';
+	var M145 = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925872.9d209ca1-2efa-4e3d-8be6-c9f25db615d7.jpeg';
+	var MPROG2B = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925873.383a908e-370f-4353-a325-12b54ac3593b.jpeg';
+	var BM450x210i = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925875.7c150068-76f8-4e37-9e1a-163087bc8b97.jpeg';
+	var BM600x280i = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925877.9608935e-9b69-43ab-a68c-7f8a30270900.jpeg';
+	var BM600x420i = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925880.deee170c-713f-49bb-a22b-3b32e1219474.jpeg';
+	var BMA3L = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925881.20aefb86-1f41-460b-93f8-b1da70d3e105.jpeg';
+
 
     switch (productCode) {
+    case "M-SFSN-007": 
+	iconLocation = MSFSN007; 
+	break;
+	case "M-SFSN-008": 
+	iconLocation = MSFSN008; 
+	break;
+	case "M-SFSN-009": 
+	iconLocation = MSFSN009; 
+	break;
+	case "M-HANS01": 
+	iconLocation = MHANS01; 
+	break;
+	case "M-MEWP01": 
+	iconLocation = MMEWP01; 
+	break;
+	case "Tool tethers must be worn A2": 
+	iconLocation = TooltethersmustbewornA2; 
+	break;
+	case "When to tether your tools A3": 
+	iconLocation = WhentotetheryourtoolsA3; 
+	break;
+	case "M-494": 
+	iconLocation = M494; 
+	break;
+	case "M-091": 
+	iconLocation = M091; 
+	break;
+	case "M-145": 
+	iconLocation = M145; 
+	break;
+	case "M-PROG2B": 
+	iconLocation = MPROG2B; 
+	break;
+	case "BM-450x210i": 
+	iconLocation = BM450x210i; 
+	break;
+	case "BM-600x280i": 
+	iconLocation = BM600x280i; 
+	break;
+	case "BM-600x420i": 
+	iconLocation = BM600x420i; 
+	break;
+	case "BM-A3L": 
+	iconLocation = BMA3L; 
+	break;
+
 	case "M-224":
     iconLocation = M224;
     break;
@@ -1462,9 +1528,6 @@ iconLocation = M4773;
 break;
 case "M-478":
 iconLocation = M478;
-break;
-case "M-477-3":
-iconLocation = M4773;
 break;
 case "M-479-2":
 iconLocation = M4792;
