@@ -9,7 +9,7 @@
 
 
 .bgmed {
-    background-color: #2b3c46;
+    background-color: #022A3A;
 }
 
 
@@ -17,25 +17,25 @@
 /* =========================== HEADER AND NAVIGATION ========================= */
 
 .bannerLogo {
-	background-color: #2b3c46;
+	background-color: #022A3A;
 	padding: 30px 20px 40px 0px;
 }
 
 ul#navivert {
   text-align: right;
-  background-color: #2b3c46;
+  background-color: #022A3A;
 }
 
 
 ul#navivert li a {
   border-right: none;
-  border-bottom: 5px solid #2b3c46;
-  background-color: #2b3c46;
+  border-bottom: 5px solid #022A3A;
+  background-color: #022A3A;
   box-sizing: content-box;
 }
 
 ul#navivert li a:hover {
-  background-color: #2b3c46;
+  background-color: #022A3A;
   border-bottom: 5px solid #f8d320;
 }
 
@@ -44,7 +44,7 @@ ul#navivert li a:hover {
     left:0;
     right:0;
     height:183px;
-    background:#2b3c46;
+    background:#022A3A;
     z-index:-1;
 }
 
@@ -142,7 +142,7 @@ ul#navivert li #ulDropDown li a {
 
 
 #ulDropDown li a span {
-  background-color: #2b3c46;
+  background-color: #022A3A;
   display:block !important;
 }
 
@@ -184,7 +184,7 @@ padding:5px 45px;
 
 
 .stepsHighlight {
-  background-color: #2b3c46;
+  background-color: #022A3A;
 }
 
 .stepsHighlight:after {
@@ -393,7 +393,7 @@ a#addToKit span {
 
 .displayboxheading {
   position:relative;
-  background-color: #2b3c46;
+  background-color: #022A3A;
 }
 
 .displayboxheading span:nth-of-type(2) {
@@ -527,13 +527,13 @@ strong#STOP_PONUMBER_TEXT:before {
  */ 
 
     #formBasket table tr:nth-of-type(1) th,  #formBasket table tr#orderTotal td {
-   background-color: #2b3c46;
+   background-color: #022A3A;
   }
 
 /* ===================================== CHECKOUT PAGE ===================================== */
 
 .checkoutTable .bgmed{
-  background-color: #2b3c46;
+  background-color: #022A3A;
   color: #FFFFFF;
   font: 11px arial,helvetica,sans-serif;
   font-weight: normal;
@@ -609,7 +609,7 @@ position: relative;
   padding-right: 4px;
   width: 100px;
   float:right;
-  background-color: #2b3c46;
+  background-color: #022A3A;
   color: #FFFFFF;
 }
 
@@ -704,7 +704,7 @@ html, body {
   height: 70px; 
 }
 .footContent {
-  background: #2b3c46;
+  background: #022A3A;
 }
 
 
@@ -719,7 +719,7 @@ html, body {
     left:0;
     right:0;
     height:70px;
-    background:#2b3c46;
+    background:#022A3A;
 
 }
 
