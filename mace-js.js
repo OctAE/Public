@@ -2978,25 +2978,25 @@ case "MCLOCS-Banner":
 iconLocation =  MCLOCSBanner;
 break;
 case "M-R001": 
-	iconlocation = MR001;
+	iconLocation = MR001;
 	break;
 	case "M-R002": 
-	iconlocation = MR002;
+	iconLocation = MR002;
 	break;
 	case "M-R003": 
-	iconlocation = MR003;
+	iconLocation = MR003;
 	break;
 	case "M-R004": 
-	iconlocation = MR004;
+	iconLocation = MR004;
 	break;
 	case "M-R005": 
-	iconlocation = MR005;
+	iconLocation = MR005;
 	break;
 	case "M-R006": 
-	iconlocation = MR006;
+	iconLocation = MR006;
 	break;
 	case "M-R007": 
-	iconlocation = MR007;
+	iconLocation = MR007;
 	break;
       
   default:
