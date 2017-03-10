@@ -139,7 +139,7 @@ $(document).ready(function(){
 	        }
 
 	 //Change "Please check Order reference" to "Please add order reference"
-    $('strong#STOP_PONUMBER_TEXT').html('Please add customer order reference');
+    $('strong#STOP_PONUMBER_TEXT').html('Please add your projects approver');
 
     //Add claas to CLICK HERE TO CONTINUE SHOPPING a tag
     $('a:contains(CLICK HERE TO CONTINUE SHOPPING)').parent().addClass('continueShopping');
