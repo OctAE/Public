@@ -3000,7 +3000,9 @@ case "M-R001":
 	break;
       
   default:
+  	console.log('Before: ' +iconLocation);
     iconLocation = iconLocation.replace("_TNS.jpg", ".jpg");
+    console.log('After: ' +iconLocation);
   }
 
 switch (titleCode) {
