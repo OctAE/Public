@@ -1049,8 +1049,37 @@ $( "img" ).hover(
 	var BM600x420i = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925880.deee170c-713f-49bb-a22b-3b32e1219474.jpeg';
 	var BMA3L = 'http://img.netprintmanager.com/red2gouk/i/695/6834/925881.20aefb86-1f41-460b-93f8-b1da70d3e105.jpeg';
 
+	var MR001 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/898652614_APRV.jpg';
+	var MR002 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/623752615_APRV.jpg';
+	var MR003 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/623152616_APRV.jpg';
+	var MR004 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/413552617_APRV.jpg';
+	var MR005 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/656852618_APRV.jpg';
+	var MR006 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/827352619_APRV.jpg';
+	var MR007 = 'http://img.netprintmanager.com/red2gouk/imgLibTool/420252620_APRV.jpg';
+
 
     switch (productCode) {
+    case "M-R001": 
+	iconlocation = MR001;
+	break;
+	case "M-R002": 
+	iconlocation = MR002;
+	break;
+	case "M-R003": 
+	iconlocation = MR003;
+	break;
+	case "M-R004": 
+	iconlocation = MR004;
+	break;
+	case "M-R005": 
+	iconlocation = MR005;
+	break;
+	case "M-R006": 
+	iconlocation = MR006;
+	break;
+	case "M-R007": 
+	iconlocation = MR007;
+	break;
     case "M-SFSN-007": 
 	iconLocation = MSFSN007; 
 	break;
