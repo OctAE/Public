@@ -404,10 +404,12 @@ $( "img" ).hover(
     var productCode = ($(this).attr('alt'));
 	var titleCode = ($(this).attr('title'));
     var iconLocation = ($(this).attr('src'));
+    var dataImage = ($(this).attr('data-imagelg'));
     
   if ((iconLocation.indexOf('img.netprintmanager.com') > -1) && !(iconLocation.indexOf('imgCategories') > -1) && ($(this).attr('id') != "previewImage" )) {
-    iconLocation = iconLocation.replace("ASRC_TNS.png", "APRV.jpg");
-   	$( "body" ).append( '<div id="popup"><img src=' + iconLocation + '></div>' );
+    //iconLocation = iconLocation.replace("ASRC_TNS.png", "APRV.jpg");
+   	$( "body" ).append( '<div id="popup"><img src=' + dataImage + '></div>' );
+   	console.log(dataImage);
 
   } //end if statament
   }, function() {
