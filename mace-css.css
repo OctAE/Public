@@ -580,13 +580,13 @@ strong#STOP_PONUMBER_TEXT:before {
   }
  */ 
 
- #costcode {
+ /*#costcode {
     position: absolute;
     width: 250px;
     line-height: 40px;
     height: 40px;
     opacity: 0;
-}
+}*/
 /* ===================================== CHECKOUT PAGE ===================================== */
 
 
