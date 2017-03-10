@@ -406,11 +406,9 @@ $( "img" ).hover(
     var iconLocation = ($(this).attr('src'));
     
   if ((iconLocation.indexOf('img.netprintmanager.com') > -1) && !(iconLocation.indexOf('imgCategories') > -1) && ($(this).attr('id') != "previewImage" )) {
-
     iconLocation = iconLocation.replace("ASRC_TNS.png", "APRV.jpg");
-  }
+   	$( "body" ).append( '<div id="popup"><img src=' + iconLocation + '></div>' );
 
-   $( "body" ).append( '<div id="popup"><img src=' + iconLocation + '></div>' );
   } //end if statament
   }, function() {
     $("#popup").remove();
