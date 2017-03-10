@@ -1059,27 +1059,6 @@ $( "img" ).hover(
 
 
     switch (productCode) {
-    case "M-R001": 
-	iconlocation = MR001;
-	break;
-	case "M-R002": 
-	iconlocation = MR002;
-	break;
-	case "M-R003": 
-	iconlocation = MR003;
-	break;
-	case "M-R004": 
-	iconlocation = MR004;
-	break;
-	case "M-R005": 
-	iconlocation = MR005;
-	break;
-	case "M-R006": 
-	iconlocation = MR006;
-	break;
-	case "M-R007": 
-	iconlocation = MR007;
-	break;
     case "M-SFSN-007": 
 	iconLocation = MSFSN007; 
 	break;
@@ -2998,6 +2977,27 @@ break;
 case "MCLOCS-Banner":
 iconLocation =  MCLOCSBanner;
 break;
+case "M-R001": 
+	iconlocation = MR001;
+	break;
+	case "M-R002": 
+	iconlocation = MR002;
+	break;
+	case "M-R003": 
+	iconlocation = MR003;
+	break;
+	case "M-R004": 
+	iconlocation = MR004;
+	break;
+	case "M-R005": 
+	iconlocation = MR005;
+	break;
+	case "M-R006": 
+	iconlocation = MR006;
+	break;
+	case "M-R007": 
+	iconlocation = MR007;
+	break;
       
   default:
     iconLocation = iconLocation.replace("_TNS.jpg", ".jpg");
