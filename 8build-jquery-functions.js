@@ -295,91 +295,24 @@ if (pathname.indexOf('g022-') > -1) {
 
 /* DISPLAY TOOLTIP WITH LARGE ICON ON HOOVER */
 
+//if home page then no
+if (!(pathname.indexOf('welcome') > -1)){
+    
+
+
 $( "img" ).hover(
   function() {
     if (($(this).attr('src')))
     var productCode = ($(this).attr('alt'));
+  var titleCode = ($(this).attr('title'));
     var iconLocation = ($(this).attr('src'));
+    var dataImage = ($(this).attr('data-imagelg'));
     
   if ((iconLocation.indexOf('img.netprintmanager.com') > -1) && !(iconLocation.indexOf('imgCategories') > -1) && ($(this).attr('id') != "previewImage" )) {
-  
+    //iconLocation = iconLocation.replace("ASRC_TNS.png", "APRV.jpg");
+    $( "body" ).append( '<div id="popup"><img src=' + dataImage + '></div>' );
+    console.log(dataImage);
 
-    var G003 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605519.381f1000-0f55-4bb2-965e-a07f927f657b.jpeg";
-    var G004 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605522.d9a3b975-76d1-4b28-8b85-6493d8c112cf.jpeg";
-    var G010 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605523.fe390dbb-7852-4321-8974-4eaa2deaeb31.jpeg";
-    var G013 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605524.f21fc49f-fb32-4410-8817-74558d9afcec.jpeg";
-    var G014 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605528.937b071c-730e-4871-892a-932bdde16940.jpeg";
-    var G020 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605529.04925757-3bbf-4f51-a4f5-3e1618cab685.jpeg";
-    var G021a = "http://img.netprintmanager.com/red2gouk/i/695/6226/605531.ca4b41d8-c1d6-4d1d-a2ea-68b698f1c019.jpeg";
-    var G02204 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605534.e6645a7b-5042-4dfc-a6b1-5629bcb45e94.jpeg";
-    var G02205 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605535.0b3a1426-0813-4867-813b-7758685fae12.jpeg";
-    var G02206 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605536.a5d21c26-f1e8-454a-95db-eee57e69fe95.jpeg";
-    var G02207 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605537.d618d264-51ad-4e54-b12a-2ffc00b53943.jpeg";
-    var G02208 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605538.688579bb-1977-412b-8d02-bc8c64a3eeda.jpeg";
-    var G02209 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605539.f1d27b21-5122-4bbc-a327-eec7b920ac7c.jpeg";
-    var G02210 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605540.190dc1c7-72d3-486b-a181-1b25cf0ad1d3.jpeg";
-    var G025 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605533.98b5d8a5-7f7f-42a6-b439-aeb9c091bb21.jpeg";
-    var PROH026 = "http://img.netprintmanager.com/red2gouk/i/695/6226/605541.5e07fda2-d989-4791-90db-a27e5e664807.jpeg";
-
-    switch (productCode) {
-  case "G003":
-    iconLocation = G003;
-    break;
-  case "G004":
-    iconLocation = G004;
-    break;
-  case "G010":
-    iconLocation = G010;
-    break;  
-  case "G013":
-    iconLocation = G013;
-    break;  
-  case "G014":
-    iconLocation = G014;
-    break;  
-  case "G020":
-    iconLocation = G020;
-    break;  
-  case "G021 a":
-    iconLocation = G021a;
-    break;  
-  case "G022-4":
-  case "G022-04":
-    iconLocation = G02204;
-    break; 
-  case "G022-5":
-  case "G022-05":
-    iconLocation = G02205;
-    break;  
-  case "G022-6":
-  case "G022-06":
-    iconLocation = G02206;
-    break;  
-  case "G022-7":
-  case "G022-07":
-    iconLocation = G02207;
-    break;  
-  case "G022-8":
-  case "G022-08":
-    iconLocation = G02208;
-    break;  
-  case "G022-9":
-  case "G022-09":
-    iconLocation = G02209;
-    break; 
-  case "G022-10":
-    iconLocation = G02210;
-    break; 
-  case "G025":
-    iconLocation = G025;
-    break;  
-  case "PROH026":
-    iconLocation = PROH026;
-    break;  
-  default:
-    iconLocation = iconLocation.replace("_TNS.jpg", ".jpg");
-  }
-   $( "body" ).append( '<div id="popup"><img src=' + iconLocation + '></div>' );
   } //end if statament
   }, function() {
     $("#popup").remove();
@@ -390,6 +323,9 @@ $( "img" ).hover(
         $('#popup')
         .css({ top: mousey, left: mousex })
 });
+
+
+} // close if home page
 
 
 
