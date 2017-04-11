@@ -213,7 +213,7 @@ $(document).ready(function(){
 
 
 	    //Add Octink logo to footer
-    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://googledrive.com/host/0BwH8qt4hNhT5S2lkZmFOUnpPTVU/' alt='Octink'></a>");
+    $( "#innerFooter" ).append( "<a href='http://www.octink.com' target='_blank' id='footer-image'><img src='https://raw.githack.com/OctAE/Public/master/McCarthy & Stone/footerOctink.png' alt='Octink'></a>");
 
 
 //Change CSS when product-edit page
@@ -275,7 +275,7 @@ $(document).ready(function(){
     $('h2#notesProductionheader').html('Add store reference/notes');
 
     //Replace bin icon on "Customised your image" on Product individual page - customized items
-    $('#editImage .img_trash img').attr({src:"https://googledrive.com/host/0BwH8qt4hNhT5ZjNmYUxCVWt3RVk/"});
+    $('#editImage .img_trash img').attr({src:"https://raw.githack.com/OctAE/Public/master/McCarthy & Stone/bin.png"});
 
     //Add "Thank you" add the begining of message on Order complete page
     $('.invoiceback p:nth-of-type(1)').before('<h2>Thank you</h2>'); 
