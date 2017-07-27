@@ -85,6 +85,8 @@ $(document).ready(function(){
 	       $( "strong:contains(WILL NOW BE PROCESSED)").html(' '); 
 	 }
 
+	 //Hide Job title
+	$('#divHEADER__NAME').hide();
 
 
 	 //Add selectors to progress steps
