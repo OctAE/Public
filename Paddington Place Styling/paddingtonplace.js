@@ -45,6 +45,9 @@ $(document).ready(function(){
 
 	//Change Navigation link "Open Catoloque" to be "Home"
 	$('span#navButtCatelogue').html('Place an order');
+	if (pathname.indexOf('basket') > -1){
+    $('#navButtCatelogue').text('Return to shopping');
+  }
 
 	//Add drop down submenu - CCS also created
 	$('ul#navivert').append('<li id="liDropDown"><a href="#">My Account</a></li>');
