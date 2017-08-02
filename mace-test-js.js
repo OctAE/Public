@@ -441,7 +441,7 @@ if (pathname.indexOf('basket') > -1){
 	    $( "select[name='projectcode'] option:selected" ).each(function() {
 	      projectcode = $( this ).text();
 	    });
-		var string = ":codecost:" + costcode + ":costcodeclose:" + ":projectcode:" + projectcode + ":projectcodeclose:";
+		var string = ":codecost:" + costcode + ":costcodeclose: :projectcode:" + projectcode + ":projectcodeclose:";
 
 		$( "input#ponumber" ).val(string);
 	});
