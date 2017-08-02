@@ -444,7 +444,7 @@ if (pathname.indexOf('basket') > -1){
 
 	$( "select[name='projectcode']" )
 	  .change(function () {
-	    var costcode = "";
+	    var projectcode = "";
 	    $( "select[name='projectcode'] option:selected" ).each(function() {
 	      projectcode = $( this ).text();
 	    });
