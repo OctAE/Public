@@ -433,7 +433,15 @@ if (pathname.indexOf('basket') > -1){
 	$("#costcode").before("<select name='projectcode' id='projectcode'><option>Test 1</option><option>Test 2</option></select>");
 	$('#ponumber').hide();
 	$('#PO_ADD_TEXT').click({ 
-		var string = ":codecost:" + $("#costcode").val() + ":costcodeclose:" + ":projectcode:" + $("#projectcode").val() + ":projectcodeclose:";
+		var costcode = "";
+		var projectcode = "";
+		$( "select[name='costcode'] option:selected" ).each(function() {
+	      costcode = $( this ).text();
+	    });
+	    $( "select[name='projectcode'] option:selected" ).each(function() {
+	      projectcode = $( this ).text();
+	    });
+		var string = ":codecost:" + costcode + ":costcodeclose:" + ":projectcode:" + projectcode + ":projectcodeclose:";
 
 		$( "input#ponumber" ).val(string);
 	});
