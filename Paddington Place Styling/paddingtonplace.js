@@ -56,7 +56,7 @@ $(document).ready(function(){
 		$("#divInfo").addClass("show");
 		$("#liEdit").removeClass("active");
 		$("#divEdit").removeClass("show");
-		$("#divEdit").removeClass("hide");
+		$("#divEdit").addClass("hide");
 	}
 
 	//Add drop down submenu - CCS also created
