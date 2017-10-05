@@ -302,15 +302,23 @@ $(document).ready(function(){
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
-		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/regentstreet/products'>Regent Street</a>"
-		       	var pathArray = pathname.split("/");
+		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/mace/products'>Mace</a>"
+		       	var pathArray = decodeURIComponent(pathname).split("/");
 		        var pathBefore = "";
 		    		for (i = 2; i < pathArray.length-1; i++) {
 		   				 pathBefore = pathBefore + "/" + pathArray[i]; 
-		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/regentstreet/products" + pathBefore + "'>" + pathArray[i] + "</a>";
+		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/mace/products" + pathBefore + "'>" + pathArray[i] + "</a>";
 					}
 		      breadcrumbHtml = breadcrumbHtml + " > product selection</strong></div>";
-		      $('.progressSteps').next().after(breadcrumbHtml);
+		      //breadcrumbHtml = $("</div>").html(breadcrumbHtml).text();
+		      
+		      if(pathname.indexOf('product-edit') > -1) {
+		      	$('.progressSteps').after(decodeEntities(breadcrumbHtml));
+		      	
+		      }	else {
+		      	$('.progressSteps').next().after(breadcrumbHtml);
+		      }
+		      
 			}
 		}
 
