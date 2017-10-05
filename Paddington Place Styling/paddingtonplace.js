@@ -302,12 +302,12 @@ $(document).ready(function(){
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
-		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/mace/products'>Mace</a>"
+		        var breadcrumbHtml = "<div style='padding: 10px 0px 30px 4px; display: block'><strong>You are at: > > <a href='/paddingtoncentral/products'>Paddington</a>"
 		       	var pathArray = decodeURIComponent(pathname).split("/");
 		        var pathBefore = "";
 		    		for (i = 2; i < pathArray.length-1; i++) {
 		   				 pathBefore = pathBefore + "/" + pathArray[i]; 
-		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/mace/products" + pathBefore + "'>" + pathArray[i] + "</a>";
+		           		 breadcrumbHtml = breadcrumbHtml + " > <a href='/paddingtoncentral/products" + pathBefore + "'>" + pathArray[i] + "</a>";
 					}
 		      breadcrumbHtml = breadcrumbHtml + " > product selection</strong></div>";
 		      //breadcrumbHtml = $("</div>").html(breadcrumbHtml).text();
