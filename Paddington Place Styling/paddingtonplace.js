@@ -52,7 +52,11 @@ $(document).ready(function(){
   	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
 	if (pathname.indexOf('edit_rttplus') > -1){
 		$("#liInfo").addClass("active");
+		$("#liInfo").removeClass("hide");
+		$("#liInfo").addClass("show");
 		$("#liEdit").removeClass("active");
+		$("#liEdit").removeClass("show");
+		$("#liEdit").removeClass("hide");
 	}
 
 	//Add drop down submenu - CCS also created
