@@ -394,6 +394,7 @@ a#addToKit span {
 .displayboxheading {
   position:relative;
   background-color: #022A3A;
+  color:#ffffff;
 }
 
 .displayboxheading span:nth-of-type(2) {
