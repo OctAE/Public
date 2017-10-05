@@ -298,7 +298,7 @@ $(document).ready(function(){
 
 
     //Add breadcrumbs to edit-kit and edit-product page, BUT NOT ON PRODUCT WHICH IS PART OF A KIT
-    if (pathname.indexOf('product-edit') > -1 || pathname.indexOf('kit-edit') > -1 ) {
+    if (pathname.indexOf('product-edit') > -1 || pathname.indexOf('kit-edit') > -1 || pathname.indexOf('edit_rttplus') > -1) {
 
     	if ($('a#addToKit span:contains(kit)').length == 0) {
 		      
