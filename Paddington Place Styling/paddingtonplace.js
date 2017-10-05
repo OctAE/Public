@@ -49,6 +49,12 @@ $(document).ready(function(){
     $('#navButtCatelogue').text('Return to shopping');
   }
 
+  	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
+	if (pathname.indexOf('edit_rttplus') > -1){
+		$("#liInfo").addClass("active");
+		$("#liEdit").removeClass("active");
+	}
+
 	//Add drop down submenu - CCS also created
 	$('ul#navivert').append('<li id="liDropDown"><a href="#">My Account</a></li>');
 	$('li#liDropDown').append('<ul id="ulDropDown"></ul>');
