@@ -917,6 +917,10 @@ background: none;
   color: #ffffff;
 }
 
+.alphabutton a:hover {
+  color: #ffffff;
+}
+
 #startFromScratch {
   display: inline-block;
 }
