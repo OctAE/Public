@@ -705,7 +705,7 @@ html, body {
   height: 70px; 
 }
 .footContent {
-  background: #022A3A;
+  background: #000000;
 }
 
 
@@ -720,7 +720,7 @@ html, body {
     left:0;
     right:0;
     height:70px;
-    background:#022A3A;
+    background:#000000;
 
 }
 
