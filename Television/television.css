@@ -23,19 +23,19 @@
 
 ul#navivert {
   text-align: right;
-  background-color: #022A3A;
+  background-color: #000000;
 }
 
 
 ul#navivert li a {
   border-right: none;
-  border-bottom: 5px solid #022A3A;
-  background-color: #022A3A;
+  border-bottom: 5px solid #000000;
+  background-color: #000000;
   box-sizing: content-box;
 }
 
 ul#navivert li a:hover {
-  background-color: #022A3A;
+  background-color: #000000;
   border-bottom: 5px solid #34D9C3;
 }
 
@@ -44,7 +44,7 @@ ul#navivert li a:hover {
     left:0;
     right:0;
     height:183px;
-    background:#022A3A;
+    background:#000000;
     z-index:-1;
 }
 
