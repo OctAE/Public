@@ -913,13 +913,6 @@ background: none;
   padding: 3px 14px 9px 0px;
 }
 
-.displayboxbody .leftalign .alphabutton {
-  background-color: #000000;
-}
-
-.displayboxbody .leftalign .alphabutton a span {
-  color: #ffffff;
-}
 
 #startFromScratch {
   display: inline-block;
