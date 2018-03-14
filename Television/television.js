@@ -77,6 +77,9 @@ $(document).ready(function(){
 	$('.bannerLogo').before('<div id="bannerBehind"></div>'); 
 
 
+	//Change checkout button to add to basket
+	$('#checkoutButton4').html("Add to Basket");
+
 	//Detach footer and place it at the bottom of centrealign_split
 	var footer = $('#footContent');
 	footer.detach();
