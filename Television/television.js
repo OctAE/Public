@@ -200,6 +200,9 @@ $(document).ready(function(){
     //Add ID to T&Cs checkbox on Checkout
     $('#orderTotal').next().attr('id','tandccheckbox');
 
+    //Hide Terms and Conditions
+    $('#tandccheckbox').hide();
+
     //Align text on checkout table
     $('#orderNumber td.bgmed, #customerName td.bgmed, #deliveryAddress td.bgmed, #phoneNumber td.bgmed, #emailAddress td.bgmed, #poNumber td.bgmed,  #orderSubTotal td:nth-of-type(2), #orderTax td:nth-of-type(2), #orderDelivery td:nth-of-type(2), #orderTotal td:nth-of-type(2)').attr('align','right');
 
