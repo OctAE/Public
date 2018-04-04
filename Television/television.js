@@ -34,6 +34,8 @@ $(document).ready(function(){
 	  ul.append(liDetails);
 	  ul.append(liLogOut);
 
+	  $('#startFromScratch').hide();
+
 
 
 	//Remove "border: none !important" from last navigation ul li a
