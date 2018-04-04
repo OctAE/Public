@@ -34,7 +34,7 @@ $(document).ready(function(){
 	  ul.append(liDetails);
 	  ul.append(liLogOut);
 
-	  $('#startFromScratch').hide();
+	  $('#startFromScratch').css('display','none');
 	  $('#captionNoteTextInline').html('Notes to Octink');
 	  $('#helpcell').hide();
 
