@@ -34,7 +34,7 @@ $(document).ready(function(){
 	  ul.append(liDetails);
 	  ul.append(liLogOut);
 
-	  $('#startFromScratch').hide();
+	  $('#startFromScratch').remove();
 
 
 
