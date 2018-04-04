@@ -35,6 +35,7 @@ $(document).ready(function(){
 	  ul.append(liLogOut);
 
 	  $('#startFromScratch').remove();
+	  $('#captionNoteTextInline').html('Notes to Octink');
 
 
 
