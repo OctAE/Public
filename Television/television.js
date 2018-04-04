@@ -34,9 +34,9 @@ $(document).ready(function(){
 	  ul.append(liDetails);
 	  ul.append(liLogOut);
 
-	  $('#startFromScratch').remove();
+	  $('#startFromScratch').hide();
 	  $('#captionNoteTextInline').html('Notes to Octink');
-
+	  $('#helpcell').hide();
 
 
 	//Remove "border: none !important" from last navigation ul li a
