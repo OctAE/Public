@@ -188,7 +188,7 @@ $(document).ready(function(){
 
 
 	 //Change "start_from_scratch" button. Add .alphabutton style into it
-    $("img[src$='start_from_scratch.gif']").hide().parent().wrapInner("<span>Remove saved projects</span>").wrap("<div class='alphabutton' id='startFromScratch'></div>");
+    $("img[src$='start_from_scratch.gif']").hide();
 
 
 
