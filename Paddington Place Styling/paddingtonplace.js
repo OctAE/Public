@@ -65,7 +65,7 @@ $(document).ready(function(){
 	}
 	//On order confirm page remove "Add store reference/notes"
 	if (pathname.indexOf('order-confirm') > -1){
-		$('#product_notes_1').addClass("hide");
+		$('.small11px').hide();
 	}
 
 	//Change Checkout button text
