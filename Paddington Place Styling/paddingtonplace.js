@@ -59,6 +59,11 @@ $(document).ready(function(){
 		$('#formLayerDebug').addClass("hide");
 	}
 
+	//On basket page remove "Add store reference/notes"
+	if (pathname.indexOf('edit_rttplus') > -1){
+		$('.small11px').addClass("hide");
+	}
+
 	//Change Checkout button text
 	$('#checkoutButton4').html('Add To Basket');
 
