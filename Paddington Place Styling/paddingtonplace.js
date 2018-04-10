@@ -49,12 +49,12 @@ $(document).ready(function(){
 
   	//On basket page add breadcrump steps and change "Continue Order" to "Proceed to checkout"
 	if (pathname.indexOf('edit_rttplus') > -1){
-		$("#liInfo").addClass("active");
-		$("#divInfo").removeClass("hide");
-		$("#divInfo").addClass("show");
-		$("#liEdit").removeClass("active");
-		$("#divEdit").removeClass("show");
-		$("#divEdit").addClass("hide");
+		//$("#liInfo").addClass("active");
+		//$("#divInfo").removeClass("hide");
+		//$("#divInfo").addClass("show");
+		//$("#liEdit").removeClass("active");
+		//$("#divEdit").removeClass("show");
+		//$("#divEdit").addClass("hide");
 	}
 
 	//Add drop down submenu - CCS also created
