@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 	//On basket page remove "Add store reference/notes"
 	if (pathname.indexOf('edit_rttplus') > -1){
-		$('.small11px').addClass("hide");
+		$('.small11px').hide());
 	}
 
 	//Change Checkout button text
