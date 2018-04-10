@@ -65,6 +65,9 @@ $(document).ready(function(){
 	//Hide fullscreen button
 	$('#tabFullScreen').addClass("hide");
 
+	//Rename notes to production to notes to octink
+	$('#captionNoteTextInline').html('Notes to Octink');
+
 	//Add drop down submenu - CCS also created
 	$('ul#navivert').append('<li id="liDropDown"><a href="#">My Account</a></li>');
 	$('li#liDropDown').append('<ul id="ulDropDown"></ul>');
