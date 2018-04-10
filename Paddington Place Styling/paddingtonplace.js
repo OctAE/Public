@@ -62,6 +62,9 @@ $(document).ready(function(){
 	//Change Checkout button text
 	$('#checkoutButton4').html('Add To Basket');
 
+	//Hide fullscreen button
+	$('#tabFullScreen').addClass("hide");
+
 	//Add drop down submenu - CCS also created
 	$('ul#navivert').append('<li id="liDropDown"><a href="#">My Account</a></li>');
 	$('li#liDropDown').append('<ul id="ulDropDown"></ul>');
