@@ -55,6 +55,8 @@ $(document).ready(function(){
 		//$("#liEdit").removeClass("active");
 		//$("#divEdit").removeClass("show");
 		//$("#divEdit").addClass("hide");
+		//Hide "Show Workings button"
+		$('#formLayerDebug').addClass("hide");
 	}
 
 	//Add drop down submenu - CCS also created
