@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 	//On basket page remove "Add store reference/notes"
 	if (pathname.indexOf('basket') > -1){
-		$('.small11px').hide());
+		$('.small11px').hide();
 	}
 	//On order confirm page remove "Add store reference/notes"
 	if (pathname.indexOf('order-confirm') > -1){
