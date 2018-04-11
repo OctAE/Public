@@ -68,6 +68,11 @@ $(document).ready(function(){
 		$('.small11px').hide();
 	}
 
+	//On approval page hide "fit to window" and "best preview"
+	if (pathname.indexOf('product-approval') > -1){
+		$('.alphabutton').hide();
+	}
+
 	$('#imageSortOrder').addClass('hide');
 
 	//Change Checkout button text
