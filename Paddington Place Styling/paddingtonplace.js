@@ -73,6 +73,9 @@ $(document).ready(function(){
 		$('.alphabutton').hide();
 	}
 
+	$('#tandccheckbox').addClass('hide');
+	
+
 	$('#imageSortOrder').addClass('hide');
 
 	//Change Checkout button text
