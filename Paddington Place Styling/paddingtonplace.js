@@ -68,6 +68,8 @@ $(document).ready(function(){
 		$('.small11px').hide();
 	}
 
+	$('#imageSortOrder').addClass('hide');
+
 	//Change Checkout button text
 	$('#checkoutButton4').html('Add To Basket');
 
