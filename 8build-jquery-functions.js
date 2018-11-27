@@ -187,6 +187,9 @@ $(document).ready(function(){
 
     //Add PDF Cataloque link to footer
     $('#footContent p').append('<span> | </span><a href="https://cdn.rawgit.com/OctAE/Public/master/8build%20Catalogue.pdf" target="_blank">PDF Cataloque</a>');
+    
+    //Add contact us button to footer
+    $('#footContent p').append('<span> | </span><a href="mailto:8build@octink.com?subject=8build store question" target="_top">Contact Us</a>');
 
     //Add breadcrumbs to edit-kit and edit-product page, BUT NOT ON PRODUCT WHICH IS PART OF A KIT
     if (pathname.indexOf('product-edit') > -1 || pathname.indexOf('kit-edit') > -1 ) {
